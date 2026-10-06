@@ -1,0 +1,54 @@
+PLAN 95 A (Adecuado)
+NIVEL | Nº | CÓDIGO | ASIGNATURA
+I | 1 | 950702 | Análisis Matemático I
+2 | 950701 | Álgebra y Geometría Analítica
+3 | 951604 | Ingeniería y Sociedad
+4 | 951601 | Sistemas de Representación
+5 | 950605 | Física I
+6 | 951407 | Química General
+7 | 950520 | Integración Eléctrica I (Integradora)
+8 | 950599 | Fundamentos de Informática
+II | 9 | 950606 | Física II
+10 | 950704 | Probabilidad y Estadística
+11 | 950521 | Electrotecnia I
+12 | 950524 | Estabilidad
+13 | 950527 | Mecánica Técnica
+14 | 950523 | Integración Eléctrica II (Integradora)
+15 | 951602 | Inglés I
+16 | 950703 | Análisis Matemático II
+17 | 950598 | Cálculo Numérico
+III | 18 | 950538 | Tecnología y Ensayos de Materiales Eléctricos
+19 | 950525 | Instrumentos y Mediciones Eléctricas
+20 | 950526 | Teoría de los Campos
+21 | 950531 | Física III
+22 | 950528 | Máquinas Eléctricas I (Integradora)
+23 | 950529 | Electrotecnia II
+24 | 950530 | Termodinámica
+25 | 950522 | Fundamentos para el Análisis de Señales
+IV | 26 | 951603 | Inglés II
+27 | 950309 | Economía
+28 | 950597 | Electrónica I
+29 | 950533 | Máquinas Eléctricas II
+30 | 950534 | Seguridad, Riesgo Eléctrico y Medio Ambiente
+31 | 950535 | Instalaciones Eléctricas y Luminotecnia (Integradora)
+32 | 950536 | Control Automático
+33 | 950537 | Máquinas Térmicas, Hidráulicas y de Fluidos
+34 | 950310 | Legislación
+V | 35 | 950539 | Electrónica II
+36 | 950596 | Generación, Transmisión y Distribución de la E.E.
+37 | 950541 | Sistemas de Potencia
+38 | 950561 | Accionamientos y Controles Eléctricos
+39 | 950595 | Organización y Administración de Empresas
+40 | 950594 | Proyecto Final (Integradora)
+41 | 950589 | Mercado eléctrico y Planificación Eléctrica (Electiva)
+42 | 950583 | Calidad aplicada a la Gestión Energética en Ingeniería Eléctrica I (Electiva)
+43 | 950590 | Calidad aplicada a la Gestión Energética en Ingeniería Eléctrica II (Electiva)
+45 | 950581 | Energías Renovables I (Electiva)
+46 | 950586 | Energías Renovables II (Electiva)
+47 | 950588 | Monitoreo de la Operación de Sistemas Eléctricos (Electiva)
+48 | 950584 | Redes Inteligentes (Electiva)
+49 | 950563 | Instrumentación (Electiva)
+50 | 950580 | Centrales Eléctricas y Protecciones de Generador
+51 | 950582 | Construcción de Máquinas Eléctricas I (Electiva)
+52 | 950587 | Construcción de Máquinas Eléctricas II (Electiva)
+53 | 950568 | Protección y Control de Sistemas Eléctricos
