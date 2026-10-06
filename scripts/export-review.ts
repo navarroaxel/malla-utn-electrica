@@ -1,6 +1,6 @@
 /**
  * Writes review.csv: one row per subject with its graduate-profile draft, for professors to
- * correct in a spreadsheet. Usage: pnpm export:review [out.csv] [--semicolon]
+ * correct in a spreadsheet. Usage: npm run export:review [out.csv] [--semicolon]
  * (--semicolon helps Excel in es-AR, which expects ";" as the separator).
  */
 import { writeFileSync } from "node:fs";

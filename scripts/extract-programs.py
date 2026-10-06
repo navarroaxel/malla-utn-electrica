@@ -4,7 +4,7 @@
 competencies it contributes to, objectives and minimum contents.
 
 Usage: python3 scripts/extract-programs.py docs/sources/1873.pdf [out.json] [--apply]
---apply merges the result into src/data/plans/plan-2023.json (then run `pnpm format`).
+--apply merges the result into src/data/plans/plan-2023.json (then run `npm run format`).
 Needs `pdftotext` (poppler). Cross-checks every record against section 7 (hours) and
 section 6.2.2 (blocks) and exits non-zero if anything disagrees.
 """

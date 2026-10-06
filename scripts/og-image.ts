@@ -1,7 +1,7 @@
 /**
  * Builds public/og.png (1200×630), the social preview image: the map cropped to its content,
- * under the site title. Usage: pnpm og:image [base-url]
- * Serve the built site first (for example `pnpm dlx serve out -l 3100`). The image is a
+ * under the site title. Usage: npm run og:image [base-url]
+ * Serve the built site first (for example `npx serve out -l 3100`). The image is a
  * screenshot, so re-run it when the plan changes noticeably.
  */
 import { chromium } from "@playwright/test";

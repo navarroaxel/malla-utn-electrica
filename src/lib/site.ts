@@ -19,5 +19,5 @@ export function absoluteUrl(path: string): string {
   return new URL(path.replace(/^\//, ""), SITE_URL).toString();
 }
 
-/** Social preview image, generated from the map itself with `pnpm og:image`. */
+/** Social preview image, generated from the map itself with `npm run og:image`. */
 export const OG_IMAGE = { url: "/og.png", width: 1200, height: 630 };

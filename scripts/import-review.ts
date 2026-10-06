@@ -1,6 +1,6 @@
 /**
  * Merges a corrected review.csv back into src/data/plans/plan-2023.json.
- * Usage: pnpm import:review review.csv [--dry-run]
+ * Usage: npm run import:review review.csv [--dry-run]
  * Nothing is written unless the whole sheet is valid and the resulting plan still validates.
  */
 import { readFileSync, writeFileSync } from "node:fs";
@@ -15,7 +15,7 @@ const args = process.argv.slice(2);
 const file = args.find((a) => !a.startsWith("--"));
 const dryRun = args.includes("--dry-run");
 if (!file) {
-  console.error("Usage: pnpm import:review review.csv [--dry-run]");
+  console.error("Usage: npm run import:review review.csv [--dry-run]");
   process.exit(2);
 }
 
