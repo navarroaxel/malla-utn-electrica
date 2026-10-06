@@ -63,7 +63,7 @@ describe("review sheet", () => {
       "status",
       "reviewed_by",
     ]);
-    expect(rows).toHaveLength(42);
+    expect(rows).toHaveLength(43); // header + 42 subjects
     const control = rows.find((r) => r[0] === "control-automatico")!;
     expect(control[5]).toBe(
       "cg-01:develops; cg-02:develops; cg-04:develops; ce-1.1; ce-1.2; ce-1.3; ce-5.1; ce-5.2; ce-5.3",

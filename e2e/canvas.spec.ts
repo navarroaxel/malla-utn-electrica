@@ -6,7 +6,7 @@ test("renders every subject of the plan as a focusable button", async ({
   page,
 }) => {
   await page.goto("/");
-  await expect(page.locator("button[id^='subject-']")).toHaveCount(41);
+  await expect(page.locator("button[id^='subject-']")).toHaveCount(42);
 });
 
 test("clicking a subject opens its detail and energizes its conductors", async ({

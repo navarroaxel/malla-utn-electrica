@@ -2709,7 +2709,8 @@
       },
       "profile": {
         "summary": {
-          "es": "Las tecnologías que modernizan la red eléctrica: medición inteligente, comunicaciones, generación distribuida y almacenamiento, microrredes y monitoreo de áreas amplias con sincrofasores."
+          "es": "Las tecnologías que modernizan la red eléctrica: medición inteligente, comunicaciones, generación distribuida y almacenamiento, microrredes y monitoreo de áreas amplias con sincrofasores.",
+          "en": "The technologies that modernise the electric grid: smart metering, communications, distributed generation and storage, microgrids and wide-area monitoring with synchrophasors."
         },
         "competencies": [
           {

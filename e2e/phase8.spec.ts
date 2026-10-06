@@ -47,8 +47,8 @@ test.describe("subject pages without JavaScript (what a search engine sees)", ()
     page,
   }) => {
     await page.goto("/");
-    await expect(page.locator("button[id^='list-subject-']")).toHaveCount(41);
-    await expect(page.locator("nav a[href^='/materias/']")).toHaveCount(41);
+    await expect(page.locator("button[id^='list-subject-']")).toHaveCount(42);
+    await expect(page.locator("nav a[href^='/materias/']")).toHaveCount(42);
   });
 });
 
@@ -114,7 +114,7 @@ test.describe("metadata", () => {
 
   test("sitemap and robots point at every page", async ({ request }) => {
     const sitemap = await (await request.get("/sitemap.xml")).text();
-    expect(sitemap.match(/<loc>/g)).toHaveLength(42);
+    expect(sitemap.match(/<loc>/g)).toHaveLength(43); // home + one page per subject
     expect(sitemap).toContain("/materias/proyecto-final/");
     const robots = await (await request.get("/robots.txt")).text();
     expect(robots).toMatch(/Allow: \//);

@@ -30,7 +30,7 @@ describe("search", () => {
   });
 
   it("returns every subject for an empty query and nothing for a miss", () => {
-    expect(names("")).toHaveLength(41);
+    expect(names("")).toHaveLength(42);
     expect(names("zzzz")).toEqual([]);
   });
 

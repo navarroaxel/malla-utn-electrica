@@ -5,15 +5,19 @@ import competencies from "@/data/competencies.json";
 import reservedActivities from "@/data/reserved-activities.json";
 
 describe("loadPlan2023", () => {
-  it("loads the 41 subjects of Ord. 1874 across five levels", () => {
+  it("loads the 41 subjects of Ord. 1874 across five levels, plus the draft elective", () => {
     const plan = loadPlan2023();
-    expect(plan.subjects.map((s) => s.number)).toEqual(
+    const core = plan.subjects.filter((s) => !s.isElective);
+    expect(core.map((s) => s.number)).toEqual(
       Array.from({ length: 41 }, (_, i) => i + 1),
     );
     const perLevel = [1, 2, 3, 4, 5].map(
-      (l) => plan.subjects.filter((s) => s.level === l).length,
+      (l) => core.filter((s) => s.level === l).length,
     );
     expect(perLevel).toEqual([8, 9, 9, 9, 6]);
+    expect(
+      plan.subjects.filter((s) => s.isElective).map((s) => s.number),
+    ).toEqual([42]);
   });
 
   it("marks every seeded profile as draft", () => {
@@ -339,7 +343,7 @@ describe("Plan 2023 data from Ord. C.S. 1873", () => {
   const bySubject = (n: number) => plan.subjects.find((s) => s.number === n)!;
 
   it("matches hours, block and specific competencies for all 41 subjects", () => {
-    for (const subject of plan.subjects) {
+    for (const subject of plan.subjects.filter((s) => !s.isElective)) {
       const [weekly, total, block, ces] = ORDINANCE_1873[subject.number];
       expect(subject.hoursPerWeek, `hours/week of ${subject.number}`).toBe(
         weekly,
@@ -418,6 +422,8 @@ describe("Plan 2023 data from Ord. C.S. 1873", () => {
         s.syllabus?.contents.length,
         `contents of ${s.number}`,
       ).toBeGreaterThan(0);
+      // The elective is not in Ord. 1873: its syllabus comes from the professor's program.
+      if (s.isElective) continue;
       expect(
         s.sources.some((x) => x.includes("1873.pdf")),
         `source of ${s.number}`,
@@ -451,7 +457,7 @@ describe("drafted summaries", () => {
   );
 
   it("exist for the subjects whose professor's program was provided", () => {
-    expect(withSummary.map((s) => s.number)).toEqual([7, 8, 9, 11, 20, 33]);
+    expect(withSummary.map((s) => s.number)).toEqual([7, 8, 9, 11, 20, 33, 42]);
   });
 
   it("stay drafts, in both languages, citing that program", () => {

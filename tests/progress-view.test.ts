@@ -13,8 +13,9 @@ const graph = buildGraph(plan);
 describe("progress view", () => {
   it("offers only subjects without prerequisites to a new student", () => {
     const view = buildProgressView(graph, {});
-    // The 8 first-year subjects plus Inglés I, which has no prerequisites in Ord. 1874.
-    expect(countAvailable(graph, view)).toBe(9);
+    // The 8 first-year subjects plus Inglés I, which has no prerequisites in Ord. 1874, plus the
+    // draft elective, whose prerequisites are still empty.
+    expect(countAvailable(graph, view)).toBe(10);
     expect(displayStatus(view, "ingles-1")).toBe("available");
     expect(displayStatus(view, "analisis-matematico-1")).toBe("available");
     expect(displayStatus(view, "fisica-2")).toBe("blocked");

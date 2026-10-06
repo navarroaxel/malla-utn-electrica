@@ -128,7 +128,7 @@ test.describe("list view", () => {
   }) => {
     await open(page, "/?view=list");
     await expect(page.getByRole("table")).toHaveCount(5);
-    await expect(page.locator("button[id^='list-subject-']")).toHaveCount(41);
+    await expect(page.locator("button[id^='list-subject-']")).toHaveCount(42);
     await expect(page.getByRole("caption").first()).toContainText("Nivel I");
     await page.locator("#list-subject-fisica-2").click();
     await expect(
@@ -144,7 +144,7 @@ test.describe("list view", () => {
     await open(page, "/");
     await expect(page.getByRole("table").first()).toBeVisible();
     await page.getByRole("button", { name: "Malla" }).click();
-    await expect(page.locator("button[id^='subject-']")).toHaveCount(41);
+    await expect(page.locator("button[id^='subject-']")).toHaveCount(42);
     await expect(page).toHaveURL(/view=graph/);
   });
 
@@ -294,7 +294,7 @@ test.describe("embed mode", () => {
     await open(page, "/?embed=1");
     await expect(page.getByRole("heading", { level: 1 })).toHaveCount(0);
     await expect(page.getByRole("button", { name: /Buscar/ })).toHaveCount(0);
-    await expect(page.locator("button[id^='subject-']")).toHaveCount(41);
+    await expect(page.locator("button[id^='subject-']")).toHaveCount(42);
     await page.locator("#subject-fisica-2").click();
     await expect(
       page.getByRole("heading", { level: 2, name: "Física II" }),
