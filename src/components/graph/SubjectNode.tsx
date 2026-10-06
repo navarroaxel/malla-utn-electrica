@@ -15,6 +15,7 @@ export type SubjectNodeData = {
   label: string;
   ariaLabel: string;
   integrativeTitle: string;
+  electiveTag: string;
   state: NodeState;
   /** Competency lens: contribution level, "none" when it does not contribute, null when off. */
   lens: Contribution | "none" | null;
@@ -129,6 +130,14 @@ function SubjectNodeView({ data }: NodeProps<SubjectFlowNode>) {
         >
           {subject.number}
         </span>
+        {subject.isElective && (
+          <span
+            aria-hidden
+            className="absolute -top-2.5 left-3 border border-[var(--ink)] bg-white px-1 font-mono text-[10px] leading-4 uppercase"
+          >
+            {data.electiveTag}
+          </span>
+        )}
         {data.progressTag && (
           <span
             aria-hidden

@@ -39,8 +39,11 @@ export function ListView({
       : ids
           .map((id) => byId.get(id))
           .filter((s): s is Subject => s !== undefined)
-          .map((s) => `${s.number} ${localize(s.name, locale)}`)
-          .join("; ");
+          .map((s) => (
+            <div key={s.id}>
+              {s.number} {localize(s.name, locale)}
+            </div>
+          ));
 
   return (
     <div
@@ -49,10 +52,21 @@ export function ListView({
       aria-label={dict.list.label}
     >
       {levels.map((level) => (
-        <table key={level} className="mb-8 w-full border-collapse text-sm">
+        <table
+          key={level}
+          className="mb-8 w-full table-fixed border-collapse text-sm"
+        >
           <caption className="border-b-2 border-[var(--ink)] pb-1 text-left font-mono text-xs tracking-widest uppercase">
             {dict.list.caption(ROMAN[level - 1] ?? String(level))}
           </caption>
+          <colgroup>
+            <col className="w-12" />
+            <col />
+            <col className="hidden w-60 lg:table-column" />
+            <col className="hidden w-60 lg:table-column" />
+            {lens && <col className="w-40" />}
+            {progress && <col className="w-44" />}
+          </colgroup>
           <thead className="text-left text-[var(--ink-soft)]">
             <tr>
               <th scope="col" className="w-12 py-2 pr-2 font-normal">
@@ -97,7 +111,8 @@ export function ListView({
                     aria-current={
                       subject.id === selectedId ? "true" : undefined
                     }
-                    className={`border-t border-[var(--grid)] align-top ${subject.id === selectedId ? "bg-[#e8eef5]" : ""}`}
+                    onClick={() => onSelect(subject.id)}
+                    className={`cursor-pointer border-t border-[var(--grid)] align-top hover:bg-[#f1f4f8] ${subject.id === selectedId ? "bg-[#e8eef5]" : ""}`}
                   >
                     <td className="py-2 pr-2 font-mono text-xs">
                       {subject.number}
@@ -127,7 +142,10 @@ export function ListView({
                       </td>
                     )}
                     {progress && (
-                      <td className="py-2">
+                      <td
+                        className="cursor-default py-2"
+                        onClick={(e) => e.stopPropagation()}
+                      >
                         <label
                           className="sr-only"
                           htmlFor={`status-${subject.id}`}

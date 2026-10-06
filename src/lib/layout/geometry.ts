@@ -7,6 +7,8 @@ export const NODE_WIDTH = 210;
 export const NODE_HEIGHT = 64;
 export const COLUMN_GAP = 120;
 export const ROW_GAP = 20;
+/** Extra space between the core subjects and the electives band under them. */
+export const ELECTIVE_GAP = 60;
 
 export interface Position {
   x: number;

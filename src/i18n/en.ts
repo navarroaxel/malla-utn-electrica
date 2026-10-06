@@ -85,6 +85,8 @@ export const en: Dictionary = {
     legendPassed: "Solid line: must be passed",
     legendTaken: "Dashed line: must be taken (course completed)",
     legendIntegrative: "Round shape: integrative subject",
+    electiveTag: "Elective",
+    legendElective: "«Elective» tag, below the map: elective subject",
     nodeAria: (
       name: string,
       level: number,

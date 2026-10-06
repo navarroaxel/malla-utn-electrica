@@ -83,6 +83,8 @@ export const es = {
     legendPassed: "Línea continua: tenés que tenerla aprobada",
     legendTaken: "Línea punteada: tenés que tenerla cursada",
     legendIntegrative: "Forma redonda: materia integradora",
+    electiveTag: "Electiva",
+    legendElective: "Etiqueta «Electiva» y abajo del mapa: materia electiva",
     nodeAria: (
       name: string,
       level: number,

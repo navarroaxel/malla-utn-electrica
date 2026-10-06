@@ -173,6 +173,7 @@ function Canvas({
             .filter(Boolean)
             .join(". "),
           integrativeTitle: dict.canvas.legendIntegrative,
+          electiveTag: dict.canvas.electiveTag,
           state,
           lens: lensLevel,
           lensTitle:
@@ -387,6 +388,15 @@ function Canvas({
                   className="inline-block h-3.5 w-8 rounded-full border border-[var(--ink)]"
                 />
                 {dict.canvas.legendIntegrative}
+              </li>
+              <li className="flex items-center gap-2">
+                <span
+                  aria-hidden
+                  className="inline-block border border-[var(--ink)] px-1 font-mono text-[10px] leading-4 uppercase"
+                >
+                  {dict.canvas.electiveTag}
+                </span>
+                {dict.canvas.legendElective}
               </li>
               <li>
                 <ul className="mt-1 grid grid-cols-2 gap-x-3 gap-y-1">

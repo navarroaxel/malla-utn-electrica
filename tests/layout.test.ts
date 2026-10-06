@@ -43,6 +43,22 @@ describe("computeLayout", () => {
   });
 });
 
+describe("computeLayout electives", () => {
+  it("puts each elective under the core subjects of its own column", async () => {
+    const layout = await computeLayout(plan, edges);
+    const electives = plan.subjects.filter((s) => s.isElective);
+    expect(electives.length).toBeGreaterThan(0);
+    for (const e of electives) {
+      const bottom = Math.max(
+        ...plan.subjects
+          .filter((s) => !s.isElective && s.level === e.level)
+          .map((s) => layout[s.id].y + NODE_HEIGHT),
+      );
+      expect(layout[e.id].y).toBeGreaterThanOrEqual(bottom);
+    }
+  });
+});
+
 describe("navigate", () => {
   it("reaches every subject from the first one using only arrow moves", async () => {
     const layout = await computeLayout(plan, edges);

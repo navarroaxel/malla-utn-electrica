@@ -15,10 +15,10 @@ jobs:
         with:
           node-version: 24
           cache: pnpm
-      - run: pnpm install --frozen-lockfile
-      - run: pnpm lint
-      - run: pnpm typecheck
-      - run: pnpm test
-      - run: pnpm build
+      - run: npm ci
+      - run: npm lint
+      - run: npm typecheck
+      - run: npm test
+      - run: npm build
       - run: pnpm exec playwright install --with-deps chromium
-      - run: pnpm test:e2e
+      - run: npm test:e2e

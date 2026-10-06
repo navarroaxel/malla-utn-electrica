@@ -46,3 +46,6 @@ next-env.d.ts
 review.csv
 __pycache__/
 *.pyc
+
+# jetbrains
+/.idea/

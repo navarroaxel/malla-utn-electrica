@@ -2671,6 +2671,75 @@
           "Proyecto de Ingeniería en Energía Eléctrica ● Metodología de trabajo. ● Bases de datos para el proyecto. ● Normalización nacional, extranjera e internacional. Anteproyecto ● Anteproyecto, dimensionado y diseño previo. Proyecto ● Proyecto. ● Documentación. Especificaciones. Aspectos económicos – sociales ● Factibilidad del proyecto. ● Costo y rentabilidad. ● Impacto Ambiental. Nota: el tema elegido deberá contemplar casos reales y de aplicación local. Se desarrollará un proyecto integral tanto desde el punto de vista técnico como económico – administrativo. Se deberá tener en cuenta en la selección, la definición de la tecnología más avanzada, sea tanto de origen nacional como extranjera. Se deberá redactar un informe final que defina los parámetros necesarios para la realización efectiva del proyecto. Estos aspectos son de carácter indicativo, no pretenden condicionar la reglamentación específica que establezca el Consejo Departamental o eventualmente la dirección de la cátedra."
         ]
       }
+    },
+    {
+      "id": "redes-electricas-inteligentes",
+      "number": 42,
+      "name": {
+        "es": "Redes Eléctricas Inteligentes"
+      },
+      "level": 5,
+      "term": null,
+      "hoursPerWeek": null,
+      "totalHours": null,
+      "block": null,
+      "isIntegrative": false,
+      "isElective": true,
+      "prerequisites": {
+        "taken": [],
+        "passed": []
+      },
+      "syllabus": {
+        "objectives": [
+          "Comprender qué factores impulsan hoy las redes inteligentes, hacia dónde se dirigen los desarrollos actuales, la normativa vigente a nivel nacional e internacional y cuál es la perspectiva en el mundo, en la región y en la Argentina.",
+          "Comprender el conjunto de tecnologías que abarcan las Redes Inteligentes a nivel de distribución, de transmisión y del consumidor final de la energía eléctrica.",
+          "Comprender los sistemas energéticos, de redes y comunicaciones y de información que constituyen los cimientos de las Redes Inteligentes.",
+          "Conocer, comprender, diseñar y calcular sistemas de generación distribuida y almacenamiento de energía.",
+          "Conocer, comprender, diseñar y calcular microrredes eléctricas.",
+          "Conocer y comprender los nuevos desafíos que plantean algunas tecnologías de redes inteligentes en el sistema de protecciones eléctricas.",
+          "Comprender las tecnologías a nivel de transmisión y en particular aquellas para monitorear grandes áreas."
+        ],
+        "contents": [
+          "Introducción a las Redes Eléctricas Inteligentes: definición, características, tecnologías, beneficios, desafíos y hoja de ruta; modelo conceptual; contexto mundial, regional y local.",
+          "Arquitectura, infraestructura y tecnologías: smart metering (AMI, AMR), SCADA y automatización en distribución, redes de información y comunicaciones, protocolos y estándares (Modbus, DNP3, IEC 61850), ciberseguridad y sistemas de gestión.",
+          "Generación distribuida: concepto, tecnologías, normativa de interconexión, diseño y dimensionamiento; electrónica de potencia (convertidores, FACTS); almacenamiento y vehículos eléctricos.",
+          "Interconexión a la red de generación distribuida en MT y BT: impacto en sobrecarga y pérdidas, perfiles de tensión, calidad de potencia y protecciones eléctricas.",
+          "Microrredes AC, DC e híbridas y monitoreo de áreas amplias: HVDC, FACTS y sincrofasores."
+        ]
+      },
+      "profile": {
+        "summary": {
+          "es": "Las tecnologías que modernizan la red eléctrica: medición inteligente, comunicaciones, generación distribuida y almacenamiento, microrredes y monitoreo de áreas amplias con sincrofasores."
+        },
+        "competencies": [
+          {
+            "id": "cg-01"
+          },
+          {
+            "id": "cg-02"
+          },
+          {
+            "id": "cg-04"
+          },
+          {
+            "id": "cg-05"
+          },
+          {
+            "id": "ce-1.1"
+          },
+          {
+            "id": "ce-1.3"
+          },
+          {
+            "id": "ce-2.2"
+          }
+        ],
+        "reservedActivities": ["ar-01"],
+        "status": "draft"
+      },
+      "sources": [
+        "docs/sources/smart-grids.pdf (programa de la cátedra «Redes Eléctricas Inteligentes»: fundamentación, objetivos y contenidos analíticos; contenidos mínimos, carga horaria y correlativas figuran «En desarrollo»)"
+      ]
     }
   ],
   "supplementaryRequirements": [

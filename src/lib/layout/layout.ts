@@ -3,6 +3,7 @@ import type { Plan } from "@/data/schema";
 import type { Edge } from "@/lib/graph";
 import {
   COLUMN_GAP,
+  ELECTIVE_GAP,
   NODE_HEIGHT,
   NODE_WIDTH,
   ROW_GAP,
@@ -59,17 +60,22 @@ export async function computeLayout(
   const levels = [...new Set(plan.subjects.map((s) => s.level))].sort(
     (a, b) => a - b,
   );
-  const columns = levels.map((level) =>
-    plan.subjects
-      .filter((s) => s.level === level)
-      .map((s) => s.id)
-      .sort(
-        (a, b) =>
-          (elkY.get(a) ?? 0) - (elkY.get(b) ?? 0) ||
-          (numberOf.get(a) ?? 0) - (numberOf.get(b) ?? 0),
-      ),
-  );
-  const height = (count: number) => count * NODE_HEIGHT + (count - 1) * ROW_GAP;
+  const sortColumn = (ids: string[]) =>
+    ids.sort(
+      (a, b) =>
+        (elkY.get(a) ?? 0) - (elkY.get(b) ?? 0) ||
+        (numberOf.get(a) ?? 0) - (numberOf.get(b) ?? 0),
+    );
+  const idsOf = (level: number, elective: boolean) =>
+    sortColumn(
+      plan.subjects
+        .filter((s) => s.level === level && s.isElective === elective)
+        .map((s) => s.id),
+    );
+  const columns = levels.map((level) => idsOf(level, false));
+  const electives = levels.map((level) => idsOf(level, true));
+  const height = (count: number) =>
+    count === 0 ? 0 : count * NODE_HEIGHT + (count - 1) * ROW_GAP;
   const tallest = Math.max(...columns.map((c) => height(c.length)));
 
   const layout: Layout = {};
@@ -79,6 +85,19 @@ export async function computeLayout(
       layout[id] = {
         x: columnX(levels[i]),
         y: Math.round(offset + row * (NODE_HEIGHT + ROW_GAP)),
+      };
+    });
+  });
+  // Electives sit right under the last core subject of their level's column.
+  electives.forEach((column, i) => {
+    const top =
+      (tallest - height(columns[i].length)) / 2 +
+      height(columns[i].length) +
+      ELECTIVE_GAP;
+    column.forEach((id, row) => {
+      layout[id] = {
+        x: columnX(levels[i]),
+        y: Math.round(top + row * (NODE_HEIGHT + ROW_GAP)),
       };
     });
   });
