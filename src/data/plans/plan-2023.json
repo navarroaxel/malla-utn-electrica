@@ -1,0 +1,2758 @@
+{
+  "id": "plan-2023",
+  "name": "Ingeniería en Energía Eléctrica — Plan 2023",
+  "ordinance": "Ord. C.S. 1873 (diseño curricular) / 1874 (correlatividades)",
+  "faculty": "UTN FRBA",
+  "subjects": [
+    {
+      "id": "analisis-matematico-1",
+      "number": 1,
+      "name": {
+        "es": "Análisis Matemático I"
+      },
+      "level": 1,
+      "term": null,
+      "hoursPerWeek": 5,
+      "block": "basic-sciences",
+      "isIntegrative": false,
+      "isElective": false,
+      "prerequisites": {
+        "taken": [],
+        "passed": []
+      },
+      "profile": {
+        "summary": {
+          "es": ""
+        },
+        "competencies": [],
+        "reservedActivities": [],
+        "status": "draft"
+      },
+      "sources": [
+        "docs/sources/Correlativas_Plan_2023_Energía_Eléctrica.pdf (Ord. C.S. 1874, Anexo I)",
+        "docs/sources/1873.pdf — Ord. C.S. 1873: plan de estudio (§7) and programa sintético nº 1 (§8)"
+      ],
+      "totalHours": 120,
+      "syllabus": {
+        "objectives": [
+          "Resolver situaciones problemáticas y de aplicación a la ingeniería utilizando herramientas del cálculo diferencial e Integral de una variable.",
+          "Resolver problemas de Razón de Cambio y Optimización en diferentes contextos, mediante la aplicación de conceptos, teoremas y propiedades del Cálculo Diferencial y la interpretación de los resultados obtenidos en el contexto de la situación.",
+          "Argumentar en lenguaje coloquial y/o simbólico para explicar justificar o verificar procedimientos empleados en la relación del cálculo integral con el cálculo de primitivas, con el proceso de derivación en el contexto de una situación problemática.",
+          "Utilizar software de aplicación para evidenciar el aprendizaje de conceptos, técnicas y modelos matemáticos propios de las funciones, el límite y la continuidad de funciones de variable real y sus aplicaciones.",
+          "Utilizar recursos bibliográficos y multimediales del Cálculo diferencial e Integral en la construcción de argumentos válidos y aceptables de las producciones escritas u orales."
+        ],
+        "contents": [
+          "Funciones de una variable real.",
+          "Límite de funciones reales.",
+          "Funciones continuas.",
+          "Funciones diferenciables.",
+          "Aplicaciones de la derivada.",
+          "Cálculo integral.",
+          "La integral definida.",
+          "Relaciones entre el Cálculo Diferencial e Integral. La primitiva.",
+          "Aplicaciones de la integral definida.",
+          "Series."
+        ]
+      }
+    },
+    {
+      "id": "algebra-y-geometria-analitica",
+      "number": 2,
+      "name": {
+        "es": "Álgebra y Geometría Analítica"
+      },
+      "level": 1,
+      "term": null,
+      "hoursPerWeek": 5,
+      "block": "basic-sciences",
+      "isIntegrative": false,
+      "isElective": false,
+      "prerequisites": {
+        "taken": [],
+        "passed": []
+      },
+      "profile": {
+        "summary": {
+          "es": ""
+        },
+        "competencies": [],
+        "reservedActivities": [],
+        "status": "draft"
+      },
+      "sources": [
+        "docs/sources/Correlativas_Plan_2023_Energía_Eléctrica.pdf (Ord. C.S. 1874, Anexo I)",
+        "docs/sources/1873.pdf — Ord. C.S. 1873: plan de estudio (§7) and programa sintético nº 2 (§8)"
+      ],
+      "totalHours": 120,
+      "syllabus": {
+        "objectives": [
+          "Desarrollar capacidad de abstracción, generalización y particularización, fortaleciendo el pensamiento deductivo e inductivo mediante el uso y aplicación de espacios vectoriales y transformaciones lineales.",
+          "Aplicar modelos lineales (matrices, determinantes, sistemas de ecuaciones lineales, autovalores y Autovectores) a la resolución de problemas, analizándolas mediante argumentos teóricos, empleando técnicas, procesos analíticos y representaciones gráficas",
+          "Resolver problemas de aplicación modelizados matemáticamente, utilizando vectores y matrices, interpretando los resultados obtenidos en el contexto de la situación, identificando sus elementos, usando distintas representaciones semióticas y comunicándolos mediante lenguaje matemático apropiado.",
+          "Resolver problemas de aplicación utilizando elementos de Geometría Analítica (rectas, planos y formas cuadráticas), interpretando los resultados obtenidos en el contexto de la situación, identificando sus elementos y comunicándolos mediante lenguaje geométrico y algebraico.",
+          "Utilizar software de lenguaje simbólico (sistemas de ecuaciones, matrices, transformaciones lineales, entre otros) y gráfico (vectores, rectas, planos, formas cuadráticas, entre otros) para la resolución de situaciones problemáticas"
+        ],
+        "contents": [
+          "Matrices.",
+          "Determinantes.",
+          "Sistemas de Ecuaciones Lineales.",
+          "Vectores en R2 y en R3.",
+          "Recta y Plano.",
+          "Formas Cuadráticas.",
+          "Espacios Vectoriales.",
+          "Transformaciones Lineales.",
+          "Autovalores y Autovectores."
+        ]
+      }
+    },
+    {
+      "id": "ingenieria-y-sociedad",
+      "number": 3,
+      "name": {
+        "es": "Ingeniería y Sociedad"
+      },
+      "level": 1,
+      "term": null,
+      "hoursPerWeek": 2,
+      "block": "complementary",
+      "isIntegrative": false,
+      "isElective": false,
+      "prerequisites": {
+        "taken": [],
+        "passed": []
+      },
+      "profile": {
+        "summary": {
+          "es": ""
+        },
+        "competencies": [],
+        "reservedActivities": [],
+        "status": "draft"
+      },
+      "sources": [
+        "docs/sources/Correlativas_Plan_2023_Energía_Eléctrica.pdf (Ord. C.S. 1874, Anexo I)",
+        "docs/sources/1873.pdf — Ord. C.S. 1873: plan de estudio (§7) and programa sintético nº 3 (§8)"
+      ],
+      "totalHours": 48,
+      "syllabus": {
+        "objectives": [
+          "Analizar críticamente las relaciones entre la ciencia y la tecnología para comprender las potencialidades y los impactos del conocimiento científico y tecnológico en pos del bienestar individual y colectivo.",
+          "Interpretar la ciencia y la tecnología desde los paradigmas actuales y comprender el vínculo que tienen con el desarrollo y la sostenibilidad, en el contexto nacional e internacional actual.",
+          "Comprender el carácter transformador de la ingeniería en la construcción de una sociedad más inclusiva, equitativa y solidaria, incluyendo aspectos relativos a la perspectiva de géneros.",
+          "Analizar el desempeño de la ingeniería desde el punto de vista de la ética, la responsabilidad profesional y el compromiso social, considerando el impacto económico, social y ambiental de su actividad en el contexto local y global."
+        ],
+        "contents": [
+          "Conocimiento científico y tecnológico como base de la Ingeniería.",
+          "Ciencia, tecnología, industria y desarrollo sostenibles.",
+          "Dimensión e impacto social de la ingeniería.",
+          "Políticas para el desarrollo nacional y regional.",
+          "La profesión de la Ingeniería en la Argentina y las problemáticas contemporáneas. Perspectiva de géneros. Ética profesional."
+        ]
+      }
+    },
+    {
+      "id": "sistemas-de-representacion",
+      "number": 4,
+      "name": {
+        "es": "Sistemas de Representación"
+      },
+      "level": 1,
+      "term": null,
+      "hoursPerWeek": 3,
+      "block": "basic-sciences",
+      "isIntegrative": false,
+      "isElective": false,
+      "prerequisites": {
+        "taken": [],
+        "passed": []
+      },
+      "profile": {
+        "summary": {
+          "es": ""
+        },
+        "competencies": [
+          {
+            "id": "ce-1.1"
+          },
+          {
+            "id": "ce-1.2"
+          },
+          {
+            "id": "ce-1.3"
+          }
+        ],
+        "reservedActivities": ["ar-01"],
+        "status": "draft"
+      },
+      "sources": [
+        "docs/sources/Correlativas_Plan_2023_Energía_Eléctrica.pdf (Ord. C.S. 1874, Anexo I)",
+        "docs/sources/1873.pdf — Ord. C.S. 1873: plan de estudio (§7) and programa sintético nº 4 (§8)",
+        "docs/sources/1873.pdf — note: its program page says 2 h/week and 48 h, while the study plan table (section 7), the block table (6.2.2) and the level totals (30 h, 720 h) all say 3 h/week and 72 h; the study plan table was used"
+      ],
+      "totalHours": 72,
+      "syllabus": {
+        "objectives": [
+          "Aplicar los métodos, sistemas y normas para transmitir y representar las formas espaciales propias de la especialidad.",
+          "Aplicar programas de computación en la confección de planos.",
+          "Evidenciar habilidad en el uso del vocabulario técnico."
+        ],
+        "contents": [
+          "Introducción a los Sistemas de Representación: con especial énfasis en el croquizado a mano alzada y el uso de CAD (Diseño asistido por computadora)",
+          "Normas nacionales e internacionales relacionadas a la especialidad.",
+          "Códigos y normas generales para la enseñanza del Dibujo Técnico.",
+          "Conocimiento básico de Diseño Asistido, aplicado al diseño y representación de planos Eléctricos."
+        ]
+      }
+    },
+    {
+      "id": "fisica-1",
+      "number": 5,
+      "name": {
+        "es": "Física I"
+      },
+      "level": 1,
+      "term": null,
+      "hoursPerWeek": 5,
+      "block": "basic-sciences",
+      "isIntegrative": false,
+      "isElective": false,
+      "prerequisites": {
+        "taken": [],
+        "passed": []
+      },
+      "profile": {
+        "summary": {
+          "es": ""
+        },
+        "competencies": [],
+        "reservedActivities": [],
+        "status": "draft"
+      },
+      "sources": [
+        "docs/sources/Correlativas_Plan_2023_Energía_Eléctrica.pdf (Ord. C.S. 1874, Anexo I)",
+        "docs/sources/1873.pdf — Ord. C.S. 1873: plan de estudio (§7) and programa sintético nº 5 (§8)"
+      ],
+      "totalHours": 120,
+      "syllabus": {
+        "objectives": [
+          "Conocer leyes, conceptos y principios de la Mecánica Clásica y la Óptica geométrica para explicar fenómenos de la naturaleza.",
+          "Aplicar nociones y procedimientos de la Mecánica, Ondas mecánicas y Óptica geométrica para resolver situaciones problemáticas, de la Física y la Ingeniería.",
+          "Comprender los modelos de la Física para interpretar los fenómenos y leyes relacionadas con la mecánica las ondas mecánicas y la óptica geométrica.",
+          "Aplicar los principios y leyes de la Mecánica, Ondas mecánicas y Óptica geométrica para modelizar e interpretar situaciones cotidianas y/o experimentales de Física y de ingeniería.",
+          "Utilizar adecuadamente técnicas básicas del laboratorio de Física, para analizar e interpretar correctamente los resultados obtenidos en las actividades experimentales, que permitan validar los modelos teóricos."
+        ],
+        "contents": [
+          "Cinemática del punto material.",
+          "Dinámica del punto material y de los sistemas de puntos materiales.",
+          "Leyes y teoremas de conservación en Mecánica.",
+          "Cinemática y dinámica del rígido.",
+          "Estática.",
+          "Movimiento oscilatorio.",
+          "Ondas mecánicas.",
+          "Fluidos en equilibrio.",
+          "Dinámica de fluidos.",
+          "Óptica geométrica."
+        ]
+      }
+    },
+    {
+      "id": "quimica-general",
+      "number": 6,
+      "name": {
+        "es": "Química General"
+      },
+      "level": 1,
+      "term": null,
+      "hoursPerWeek": 5,
+      "block": "basic-sciences",
+      "isIntegrative": false,
+      "isElective": false,
+      "prerequisites": {
+        "taken": [],
+        "passed": []
+      },
+      "profile": {
+        "summary": {
+          "es": ""
+        },
+        "competencies": [],
+        "reservedActivities": [],
+        "status": "draft"
+      },
+      "sources": [
+        "docs/sources/Correlativas_Plan_2023_Energía_Eléctrica.pdf (Ord. C.S. 1874, Anexo I)",
+        "docs/sources/1873.pdf — Ord. C.S. 1873: plan de estudio (§7) and programa sintético nº 6 (§8)"
+      ],
+      "totalHours": 120,
+      "syllabus": {
+        "objectives": [
+          "Describir la estructura de la materia en sus diferentes niveles, y su impacto en las propiedades físicas y químicas",
+          "Identificar las funciones químicas más comunes",
+          "Interpretar las uniones entre átomos, iones y moléculas",
+          "Describir el efecto de cambios de distintas variables que puedan modificar las propiedades de sistemas materiales.",
+          "Aplicar la información que brindan las Leyes Fundamentales de la Química en las reacciones químicas",
+          "Interpretar los factores que influyen en las velocidades de las reacciones y en el estado de equilibrio",
+          "Explicar el comportamiento de reacciones y procesos electroquímicos",
+          "Interpretar la influencia de la química en el ambiente y en los Objetivos de Desarrollo Sostenible"
+        ],
+        "contents": [
+          "Sistemas materiales.",
+          "Notación. Cantidad de sustancia.",
+          "Estructura de la materia.",
+          "Uniones químicas",
+          "Estados de agregación de la materia.",
+          "Estequiometría y relaciones energéticas de las reacciones químicas",
+          "Soluciones.",
+          "Cinética química.",
+          "Equilibrio químico",
+          "Equilibrio en soluciones",
+          "Electroquímica",
+          "Química del ambiente"
+        ]
+      }
+    },
+    {
+      "id": "integracion-electrica-1",
+      "number": 7,
+      "name": {
+        "es": "Integración Eléctrica I"
+      },
+      "level": 1,
+      "term": null,
+      "hoursPerWeek": 3,
+      "block": "basic-technologies",
+      "isIntegrative": true,
+      "isElective": false,
+      "prerequisites": {
+        "taken": [],
+        "passed": []
+      },
+      "profile": {
+        "summary": {
+          "es": "Tu primer contacto con la ingeniería eléctrica: qué problemas resuelve, qué áreas e incumbencias tiene el título y cómo se plantean y resuelven problemas básicos con herramientas matemáticas, informáticas y de medición.",
+          "en": "Your first contact with electrical engineering: the problems it solves, the areas and professional scope of the degree, and how basic problems are posed and solved with mathematical, computing and measurement tools."
+        },
+        "competencies": [
+          {
+            "id": "cg-01",
+            "level": "introduces"
+          },
+          {
+            "id": "cg-04",
+            "level": "introduces"
+          },
+          {
+            "id": "cg-07",
+            "level": "introduces"
+          },
+          {
+            "id": "cg-08",
+            "level": "introduces"
+          },
+          {
+            "id": "ce-1.3"
+          },
+          {
+            "id": "ce-2.2"
+          }
+        ],
+        "reservedActivities": ["ar-01", "ar-02"],
+        "status": "draft"
+      },
+      "sources": [
+        "docs/sources/Correlativas_Plan_2023_Energía_Eléctrica.pdf (Ord. C.S. 1874, Anexo I)",
+        "docs/sources/Integracion Electrica 1 - Programa.pdf (programa: objetivos y programa sintético)",
+        "docs/sources/1873.pdf — Ord. C.S. 1873: plan de estudio (§7) and programa sintético nº 7 (§8)"
+      ],
+      "totalHours": 72,
+      "syllabus": {
+        "objectives": [
+          "Comprender el objetivo primario de la ingeniería. Distinguir las diferencias entre los conceptos de ciencia e ingeniería.",
+          "Identificar las cualidades del ingeniero y su formación óptima. Determinar los conocimientos, las habilidades y las aptitudes a adquirir. Reconocer su postura frente a los problemas sociales. Practicar la expresión oral y escrita.",
+          "Identificar y relacionar las áreas de la Ingeniería en Energía Eléctrica. Interpretar las actividades reservadas del título.",
+          "Determinar los posibles caminos de solución a los problemas básicos de la Ingeniería en Energía Eléctrica."
+        ],
+        "contents": [
+          "Problemas básicos relacionados con la Ingeniería en Energía Eléctrica. Formulación, análisis, posibles caminos de solución.",
+          "Vinculación de conceptos físicos y matemáticos con variables involucradas en sistemas eléctricos.",
+          "Utilización de herramientas matemáticas e informáticas para el tratamiento de problemas básicos de Ingeniería en Energía Eléctrica. Modelos y simulación.",
+          "Introducción al vocabulario técnico, equipos de medición y análisis, vinculado con la Ingeniería en Energía Eléctrica."
+        ]
+      }
+    },
+    {
+      "id": "fundamentos-de-informatica",
+      "number": 8,
+      "name": {
+        "es": "Fundamentos de Informática"
+      },
+      "level": 1,
+      "term": null,
+      "hoursPerWeek": 2,
+      "block": "basic-sciences",
+      "isIntegrative": false,
+      "isElective": false,
+      "prerequisites": {
+        "taken": [],
+        "passed": []
+      },
+      "profile": {
+        "summary": {
+          "es": "Programar para resolver problemas de ingeniería: operación de la computadora, utilitarios y programación estructurada y orientada a eventos en Visual Basic .NET, con siete trabajos prácticos de laboratorio (por ejemplo, cálculo de circuitos por mallas y graficación de funciones de electrotecnia).",
+          "en": "Programming to solve engineering problems: computer operation, office utilities, and structured, event-driven programming in Visual Basic .NET, with seven laboratory assignments (for example, circuit analysis by mesh method and plotting electrotechnics functions)."
+        },
+        "competencies": [
+          {
+            "id": "cg-01",
+            "level": "introduces"
+          },
+          {
+            "id": "cg-02",
+            "level": "introduces"
+          },
+          {
+            "id": "cg-04",
+            "level": "introduces"
+          },
+          {
+            "id": "ce-1.1"
+          },
+          {
+            "id": "ce-9.1"
+          }
+        ],
+        "reservedActivities": ["ar-01", "al-05"],
+        "status": "draft"
+      },
+      "sources": [
+        "docs/sources/Correlativas_Plan_2023_Energía_Eléctrica.pdf (Ord. C.S. 1874, Anexo I)",
+        "docs/sources/Integracion Electrica 1 - Programa.pdf (programa: objetivos y programa sintético)",
+        "docs/sources/1º Fundamentos de Informática - 950599 - Rev 02.2017.pdf (programa de la cátedra, código 950599, año 2017, Diseño Curricular 1995: fundamentación, objetivos, contenidos y trabajos prácticos)",
+        "docs/sources/1873.pdf — Ord. C.S. 1873: plan de estudio (§7) and programa sintético nº 8 (§8)"
+      ],
+      "totalHours": 48,
+      "syllabus": {
+        "objectives": [
+          "Adquirir la capacidad de evaluar alternativas y resolver situaciones problemáticas utilizando la programación como herramienta.",
+          "Utilizar la informática para el desarrollo de tareas integradoras e interdisciplinarias.",
+          "Adquirir conocimiento de un lenguaje de alto nivel como el C++.",
+          "Evidenciar habilidad en el uso de vocabulario técnico ."
+        ],
+        "contents": [
+          "Estructura de una computadora.",
+          "Utilitarios",
+          "Software de especialidad",
+          "Algoritmos de programación",
+          "Introducción al diseño de algoritmos y lógica de programación"
+        ]
+      }
+    },
+    {
+      "id": "fisica-2",
+      "number": 9,
+      "name": {
+        "es": "Física II"
+      },
+      "level": 2,
+      "term": null,
+      "hoursPerWeek": 5,
+      "block": "basic-sciences",
+      "isIntegrative": false,
+      "isElective": false,
+      "prerequisites": {
+        "taken": ["analisis-matematico-1", "fisica-1"],
+        "passed": []
+      },
+      "profile": {
+        "summary": {
+          "es": "Los fenómenos y leyes del calor, la electricidad y el magnetismo, las ondas y la óptica, y cómo se deducen de los hechos experimentales con herramientas matemáticas.",
+          "en": "The phenomena and laws of heat, electricity and magnetism, waves and optics, and how they are derived from experimental facts using mathematical tools."
+        },
+        "competencies": [
+          {
+            "id": "cg-01",
+            "level": "introduces"
+          }
+        ],
+        "reservedActivities": [],
+        "status": "draft"
+      },
+      "sources": [
+        "docs/sources/Correlativas_Plan_2023_Energía_Eléctrica.pdf (Ord. C.S. 1874, Anexo I)",
+        "docs/sources/Integracion Electrica 1 - Programa.pdf (programa: objetivos y programa sintético)",
+        "docs/sources/1873.pdf — Ord. C.S. 1873: plan de estudio (§7) and programa sintético nº 9 (§8)"
+      ],
+      "totalHours": 120,
+      "syllabus": {
+        "objectives": [
+          "Conocer leyes, conceptos y principios de la Termodinámica y Electromagnetismo y Óptica Física para explicar fenómenos de la naturaleza.",
+          "Aplicar nociones y procedimientos de la Termodinámica, el Electromagnetismo y la Óptica Física para resolver situaciones problemáticas, de la Física y la Ingeniería.",
+          "Comprender los modelos que usa la Física para interpretar los fenómenos y leyes relacionadas con la Termodinámica, el Electromagnetismo y la Óptica Física.",
+          "Aplicar los principios y leyes de la Termodinámica, el Electromagnetismo y la Óptica Física para modelizar e interpretar situaciones cotidianas y/o experimentales de Física y de ingeniería.",
+          "Utilizar técnicas básicas del laboratorio de Física, para analizar e interpretar correctamente los resultados obtenidos en las actividades experimentales, que permitan validar los modelos teóricos."
+        ],
+        "contents": [
+          "Introducción a la termodinámica. Calor y temperatura.",
+          "Mecanismos de intercambio de calor.",
+          "Primer y Segundo Principio de la termodinámica.",
+          "Electrostática.",
+          "Capacidad. Capacitores.",
+          "Propiedades eléctricas de la materia.",
+          "Circuitos de corriente continua. Ley de Ohm.",
+          "Magnetostática.",
+          "Inducción magnética.",
+          "Propiedades magnéticas de la materia.",
+          "Ecuaciones de Maxwell. Electromagnetismo.",
+          "Movimiento ondulatorio.",
+          "Ondas electromagnéticas.",
+          "Polarización.",
+          "Interferencia y difracción."
+        ]
+      }
+    },
+    {
+      "id": "probabilidad-y-estadistica",
+      "number": 10,
+      "name": {
+        "es": "Probabilidad y Estadística"
+      },
+      "level": 2,
+      "term": null,
+      "hoursPerWeek": 3,
+      "block": "basic-sciences",
+      "isIntegrative": false,
+      "isElective": false,
+      "prerequisites": {
+        "taken": ["analisis-matematico-1", "algebra-y-geometria-analitica"],
+        "passed": []
+      },
+      "profile": {
+        "summary": {
+          "es": ""
+        },
+        "competencies": [],
+        "reservedActivities": [],
+        "status": "draft"
+      },
+      "sources": [
+        "docs/sources/Correlativas_Plan_2023_Energía_Eléctrica.pdf (Ord. C.S. 1874, Anexo I)",
+        "docs/sources/1873.pdf — Ord. C.S. 1873: plan de estudio (§7) and programa sintético nº 10 (§8)"
+      ],
+      "totalHours": 72,
+      "syllabus": {
+        "objectives": [
+          "Aplicar los conceptos de la estadística descriptiva en el análisis de conjuntos de datos y la formulación de hipótesis estadísticas, utilizando planillas de cálculo y/o programas estadísticos específicos",
+          "Reconocer experimentos y problemas de aplicación en los que interviene el componente aleatorio para calcular probabilidades aplicando propiedades, teoremas e interpretando los resultados obtenidos.",
+          "Aplicar las distribuciones de probabilidad en la modelización de situaciones problemáticas del campo de la ingeniería u otros campos del conocimiento.",
+          "Estimar los parámetros de las variables de interés para caracterizar a poblaciones en estudio aplicando propiedades, teoremas y técnicas estadísticas.",
+          "Plantear pruebas de hipótesis de problemas relacionados con la ingeniería aplicando propiedades, teoremas y técnicas estadísticas.",
+          "Analizar situaciones donde se plantea la relación entre dos variables, evaluar los supuestos teóricos para determinar la factibilidad de aplicación del análisis de regresión y efectuar los cálculos adecuados interpretando los resultados obtenidos.",
+          "Utilizar las TICs y software de aplicación en Estadística para la construcción de conocimiento, para la resolución y simulación de los modelos aleatorios planteados."
+        ],
+        "contents": [
+          "Estadística descriptiva.",
+          "Probabilidad.",
+          "Variables aleatorias. Distribuciones de Probabilidad.",
+          "Inferencia estadística. Estimación de parámetros puntual y por intervalos de confianza. Pruebas de hipótesis.",
+          "Introducción al análisis de regresión."
+        ]
+      }
+    },
+    {
+      "id": "electrotecnia-1",
+      "number": 11,
+      "name": {
+        "es": "Electrotecnia I"
+      },
+      "level": 2,
+      "term": null,
+      "hoursPerWeek": 6,
+      "block": "basic-technologies",
+      "isIntegrative": false,
+      "isElective": false,
+      "prerequisites": {
+        "taken": [
+          "analisis-matematico-1",
+          "algebra-y-geometria-analitica",
+          "fisica-1"
+        ],
+        "passed": []
+      },
+      "profile": {
+        "summary": {
+          "es": "La teoría de circuitos que sostiene todo lo que viene después: cómo modelar y analizar circuitos eléctricos y magnéticos en continua y alterna (redes, resonancia, sistemas trifásicos, acoplamientos y transformador), con cuatro trabajos de laboratorio.",
+          "en": "The circuit theory that underpins everything that follows: how to model and analyse electric and magnetic circuits in DC and AC (networks, resonance, three-phase systems, coupled circuits and the transformer), with four laboratory sessions."
+        },
+        "competencies": [
+          {
+            "id": "cg-01",
+            "level": "develops"
+          },
+          {
+            "id": "cg-04",
+            "level": "introduces"
+          },
+          {
+            "id": "cg-06",
+            "level": "introduces"
+          },
+          {
+            "id": "cg-07",
+            "level": "introduces"
+          },
+          {
+            "id": "ce-1.1"
+          },
+          {
+            "id": "ce-1.2"
+          },
+          {
+            "id": "ce-1.3"
+          },
+          {
+            "id": "ce-4.1"
+          }
+        ],
+        "reservedActivities": ["ar-01", "ar-04"],
+        "status": "draft"
+      },
+      "sources": [
+        "docs/sources/Correlativas_Plan_2023_Energía_Eléctrica.pdf (Ord. C.S. 1874, Anexo I)",
+        "docs/sources/Programa Electrotecnia  I - 950521 - Rev 02.2017.pdf (programa de la cátedra, código 950521, año 2017, Diseño Curricular 1995: fundamentación, objetivos, contenidos y metodología)",
+        "docs/sources/1873.pdf — Ord. C.S. 1873: plan de estudio (§7) and programa sintético nº 11 (§8)"
+      ],
+      "totalHours": 144,
+      "syllabus": {
+        "objectives": [
+          "Analizar circuitos eléctricos y electromagnéticos en corriente continua y en régimen sinusoidal en régimen permanente.",
+          "Calcular corrientes, caídas de tensión, potencias, ángulos de fase y construir diagramas fasoriales en circuitos eléctricos.",
+          "Determinar fuerzas magnetomotrices y caídas de tensión en circuitos magnéticos.",
+          "Evidenciar habilidad en el uso del vocabulario técnico."
+        ],
+        "contents": [
+          "Introducción a la electrotecnia. Terminología.",
+          "Elementos de circuito. Leyes fundamentales.",
+          "Circuitos eléctricos en CC. Teoremas y transformaciones de redes.",
+          "Energía y potencia.",
+          "Cálculo de líneas en CC.",
+          "Circuitos eléctricos no lineales.",
+          "Corriente alterna, régimen sinusoidal estacionario, generalización de los teoremas. Resonancia.",
+          "Sistemas polifásicos-potencia.",
+          "Inducción mutua, magnetismo y circuitos magnéticos.",
+          "Transformador.",
+          "Poliarmónicos.",
+          "Diagramas circulares."
+        ]
+      }
+    },
+    {
+      "id": "estabilidad",
+      "number": 12,
+      "name": {
+        "es": "Estabilidad"
+      },
+      "level": 2,
+      "term": null,
+      "hoursPerWeek": 4,
+      "block": "basic-technologies",
+      "isIntegrative": false,
+      "isElective": false,
+      "prerequisites": {
+        "taken": [
+          "analisis-matematico-1",
+          "algebra-y-geometria-analitica",
+          "fisica-1"
+        ],
+        "passed": []
+      },
+      "profile": {
+        "summary": {
+          "es": ""
+        },
+        "competencies": [
+          {
+            "id": "ce-1.1"
+          },
+          {
+            "id": "ce-1.2"
+          }
+        ],
+        "reservedActivities": ["ar-01"],
+        "status": "draft"
+      },
+      "sources": [
+        "docs/sources/Correlativas_Plan_2023_Energía_Eléctrica.pdf (Ord. C.S. 1874, Anexo I)",
+        "docs/sources/1873.pdf — Ord. C.S. 1873: plan de estudio (§7) and programa sintético nº 12 (§8)"
+      ],
+      "totalHours": 96,
+      "syllabus": {
+        "objectives": [
+          "Conocer los conceptos de estructura, cargas, acciones y deformaciones.",
+          "Encontrar las fuerzas reactivas en cuerpos considerados rígidos, con vinculación isostática, planteando las condiciones de equilibrio del sistema de fuerzas exteriores que actúan sobre el mismo.",
+          "Determinar los esfuerzos internos que se producen en una sección de una estructura.",
+          "Determinar tensiones y deformaciones en barras bajo las hipótesis simplificativas de la resistencia de materiales.",
+          "Dimensionar secciones de barras y verificar su resistencia.",
+          "Reconocer los límites de aplicación de la resistencia de materiales.",
+          "Evidenciar habilidad en el uso del vocabulario técnico."
+        ],
+        "contents": [
+          "Estática",
+          "Estudio de los sistemas vinculados.",
+          "Característica geométrica de las secciones.",
+          "Introducción a la resistencia de materiales.",
+          "Tracción, compresión, torsión, flexión simple y compuesta. Ensayos.",
+          "Estructuras Reticuladas, Cables Flexibles, Pórticos y Columnas.",
+          "Aplicaciones en soportes, paredes, máquinas y elementos eléctricos. Fundaciones de máquinas y para redes."
+        ]
+      }
+    },
+    {
+      "id": "mecanica-tecnica",
+      "number": 13,
+      "name": {
+        "es": "Mecánica Técnica"
+      },
+      "level": 2,
+      "term": null,
+      "hoursPerWeek": 2,
+      "block": "basic-technologies",
+      "isIntegrative": false,
+      "isElective": false,
+      "prerequisites": {
+        "taken": ["analisis-matematico-1", "fisica-1"],
+        "passed": []
+      },
+      "profile": {
+        "summary": {
+          "es": ""
+        },
+        "competencies": [
+          {
+            "id": "ce-1.1"
+          },
+          {
+            "id": "ce-1.2"
+          },
+          {
+            "id": "ce-1.3"
+          }
+        ],
+        "reservedActivities": ["ar-01"],
+        "status": "draft"
+      },
+      "sources": [
+        "docs/sources/Correlativas_Plan_2023_Energía_Eléctrica.pdf (Ord. C.S. 1874, Anexo I)",
+        "docs/sources/1873.pdf — Ord. C.S. 1873: plan de estudio (§7) and programa sintético nº 13 (§8)"
+      ],
+      "totalHours": 48,
+      "syllabus": {
+        "objectives": [
+          "Resolver problemas cinemáticos y dinámicos en cuerpo rígido",
+          "Operar con la analogía eléctrica y mecánica de sistemas.",
+          "Calcular respuestas de sistemas mecánicos mediante métodos operacionales."
+        ],
+        "contents": [
+          "Dinámica del punto.",
+          "Movimientos relativos.",
+          "Dinámica de cuerpos rígidos.",
+          "Dinámica de sistemas.",
+          "Fenómenos percusivos.",
+          "Oscilaciones mecánicas.",
+          "Modelado de sistemas electromecánicos."
+        ]
+      }
+    },
+    {
+      "id": "integracion-electrica-2",
+      "number": 14,
+      "name": {
+        "es": "Integración Eléctrica II"
+      },
+      "level": 2,
+      "term": null,
+      "hoursPerWeek": 3,
+      "block": "basic-technologies",
+      "isIntegrative": true,
+      "isElective": false,
+      "prerequisites": {
+        "taken": [
+          "analisis-matematico-1",
+          "fisica-1",
+          "integracion-electrica-1"
+        ],
+        "passed": []
+      },
+      "profile": {
+        "summary": {
+          "es": ""
+        },
+        "competencies": [
+          {
+            "id": "ce-1.3"
+          },
+          {
+            "id": "ce-4.1"
+          }
+        ],
+        "reservedActivities": ["ar-01", "ar-04"],
+        "status": "draft"
+      },
+      "sources": [
+        "docs/sources/Correlativas_Plan_2023_Energía_Eléctrica.pdf (Ord. C.S. 1874, Anexo I)",
+        "docs/sources/1873.pdf — Ord. C.S. 1873: plan de estudio (§7) and programa sintético nº 14 (§8)"
+      ],
+      "totalHours": 72,
+      "syllabus": {
+        "objectives": [
+          "Identificar problemas vinculados con Ingeniería y un camino metodológico que permita resolverlos.",
+          "Generar en el alumno la necesidad de sumar nuevos conocimientos y utilizar vocabulario técnico vinculado con Ingeniería en Energía Eléctrica.",
+          "Integrar los conocimientos que el alumno posee, junto con los incorporados por las asignaturas de ciencias y tecnologías básicas, con los nuevos a adquirir, con el objeto de comenzar a desarrollar las habilidades profesionales que deberá lograr a futuro.",
+          "Practicar el hábito de la correcta presentación de informes y desarrollar la habilidad para el manejo bibliográfico."
+        ],
+        "contents": [
+          "Identificación y planteo de los problemas básicos de la ingeniería.",
+          "Resolución de problemas básicos de Ingeniería en Energía Eléctrica que permitan integrar los conocimientos adquiridos hasta el momento, destacando la utilidad que presentan las herramientas matemáticas y físicas.",
+          "Actividades de formación práctica que le permitan al alumno reconocer equipos de medición, análisis y/o control que se vinculen con Ingeniería en Energía Eléctrica. Identificar la potencialidad de la utilización de modelos para el estudio de sistemas eléctricos y su equipamiento asociado."
+        ]
+      }
+    },
+    {
+      "id": "ingles-1",
+      "number": 15,
+      "name": {
+        "es": "Inglés I"
+      },
+      "level": 2,
+      "term": null,
+      "hoursPerWeek": 2,
+      "block": "complementary",
+      "isIntegrative": false,
+      "isElective": false,
+      "prerequisites": {
+        "taken": [],
+        "passed": []
+      },
+      "profile": {
+        "summary": {
+          "es": ""
+        },
+        "competencies": [],
+        "reservedActivities": [],
+        "status": "draft"
+      },
+      "sources": [
+        "docs/sources/Correlativas_Plan_2023_Energía_Eléctrica.pdf (Ord. C.S. 1874, Anexo I)",
+        "docs/sources/1873.pdf — Ord. C.S. 1873: plan de estudio (§7) and programa sintético nº 15 (§8)"
+      ],
+      "totalHours": 48,
+      "syllabus": {
+        "objectives": [
+          "Desarrollar las dimensiones de la competencia comunicativa intercultural en inglés general y técnico para comprender y producir textos en el dominio académico- profesional.",
+          "Interactuar en equipos de trabajo negociando saberes lingüístico-discursivos y estratégicos para favorecer la construcción colaborativa según la tarea o problema a resolver."
+        ],
+        "contents": [
+          "Dimensión lingüística: agencia y nominalización simple, campos semánticos y lexicales, temporalidad, aspecto, modalidad y voz (frases verbales simples), complementación circunstancial simple, coordinación y subordinación.",
+          "Dimensión sociolingüístico-discursiva: géneros discursivos (dominio académico- profesional con carga lexical y estructura discursiva sencilla), mecanismos de construcción de textos para su interpretación y producción, coherencia y cohesión.",
+          "Dimensión estratégica: elementos textuales y paratextuales como facilitadores de la comprensión, uso de extranjerización, interpretación y traducción léxica, formación de palabras, demostración, descripción, entre otras.",
+          "Dimensión sociocultural: componentes del contexto comunicativo en el que la comunicación emerge. Reconocimiento de contexto sociohistórico en el dominio académico-profesional: convenciones sociales, costumbres, sistema de valores, normas de convivencia, organización institucional, entre otros."
+        ]
+      }
+    },
+    {
+      "id": "analisis-matematico-2",
+      "number": 16,
+      "name": {
+        "es": "Análisis Matemático II"
+      },
+      "level": 2,
+      "term": null,
+      "hoursPerWeek": 5,
+      "block": "basic-sciences",
+      "isIntegrative": false,
+      "isElective": false,
+      "prerequisites": {
+        "taken": ["analisis-matematico-1", "algebra-y-geometria-analitica"],
+        "passed": []
+      },
+      "profile": {
+        "summary": {
+          "es": ""
+        },
+        "competencies": [],
+        "reservedActivities": [],
+        "status": "draft"
+      },
+      "sources": [
+        "docs/sources/Correlativas_Plan_2023_Energía_Eléctrica.pdf (Ord. C.S. 1874, Anexo I)",
+        "docs/sources/1873.pdf — Ord. C.S. 1873: plan de estudio (§7) and programa sintético nº 16 (§8)"
+      ],
+      "totalHours": 120,
+      "syllabus": {
+        "objectives": [
+          "Describir la trayectoria de un objeto a partir de funciones vectoriales de una variable real.",
+          "Resolver situaciones problemáticas en contextos de Ingeniería utilizando recursos del cálculo diferencial e integral de funciones reales de varias variables.",
+          "Modelizar fenómenos naturales o inducidos que evolucionan en el tiempo, mediante el empleo de Ecuaciones Diferenciales, reconociendo su importancia y aplicabilidad en Ingeniería.",
+          "Argumentar en lenguaje coloquial y simbólico para explicar y justificar razonamientos, y fundamentar procedimientos empleados en la resolución de problemas relacionados con cálculo de gradiente, rotacional, divergencia y con los teoremas fundamentales del Cálculo Vectorial (de los campos conservativos, de Green, de Stokes y de Gauss-Strogradski).",
+          "Resolver problemas de aplicación en los que se evidencie la utilización criteriosa de los tópicos de la asignatura, utilizando lenguaje disciplinar adecuado en producciones escritas u orales.",
+          "Utilizar las TIC y software de aplicación en Matemática para la resolución de problemas y simulación de problemas matemáticos relacionados con superficies, curvas y campos vectoriales, favoreciendo la construcción de conocimiento."
+        ],
+        "contents": [
+          "Funciones vectoriales de una variable real y sus aplicaciones.",
+          "Funciones escalares de varias variables y sus aplicaciones",
+          "Cálculo diferencial de funciones reales de varias variables reales y sus aplicaciones.",
+          "Ecuaciones diferenciales ordinarias de primer y segundo orden y sus aplicaciones.",
+          "Integrales dobles y triples y sus aplicaciones.",
+          "Campos vectoriales. Rotacional y Divergencia.",
+          "Integrales de línea, de superficie y sus aplicaciones.",
+          "Teoremas fundamentales del Cálculo Vectorial y sus aplicaciones."
+        ]
+      }
+    },
+    {
+      "id": "calculo-numerico",
+      "number": 17,
+      "name": {
+        "es": "Cálculo Numérico"
+      },
+      "level": 2,
+      "term": null,
+      "hoursPerWeek": 2,
+      "block": "basic-sciences",
+      "isIntegrative": false,
+      "isElective": false,
+      "prerequisites": {
+        "taken": [
+          "analisis-matematico-1",
+          "algebra-y-geometria-analitica",
+          "fisica-1",
+          "fundamentos-de-informatica"
+        ],
+        "passed": []
+      },
+      "profile": {
+        "summary": {
+          "es": ""
+        },
+        "competencies": [
+          {
+            "id": "ce-1.1"
+          },
+          {
+            "id": "ce-1.2"
+          },
+          {
+            "id": "ce-1.3"
+          },
+          {
+            "id": "ce-7.1"
+          },
+          {
+            "id": "ce-9.1"
+          }
+        ],
+        "reservedActivities": ["ar-01", "al-03", "al-05"],
+        "status": "draft"
+      },
+      "sources": [
+        "docs/sources/Correlativas_Plan_2023_Energía_Eléctrica.pdf (Ord. C.S. 1874, Anexo I)",
+        "docs/sources/1873.pdf — Ord. C.S. 1873: plan de estudio (§7) and programa sintético nº 17 (§8)"
+      ],
+      "totalHours": 48,
+      "syllabus": {
+        "objectives": [
+          "Diseñar programas varios que emplean funciones, validación de datos, variables locales y globales con ejecución paso a paso, para reafirmar los conceptos aprehendidos en Fundamentos de Informática y formular Modelos de Simulación de Procesos.",
+          "Diseñar programas con base en sistemas de ecuaciones lineales y no lineales empleando métodos de sustitución, eliminación, descomposición e iteración, para resolver situaciones problemáticas de la Ingeniería en Energía Eléctrica.",
+          "Diseñar programas que resuelven Sistemas SODE basados en métodos numéricos de paso fijo y múltiples pendientes, para modelizar comportamientos dinámicos asociados a situaciones problemáticas de la Ingeniería en Energía Eléctrica.",
+          "Diseñar programas que optimizan funciones multidimensionales restringidas empleando métodos numéricos clásicos y de inteligencia artificial, resolviendo problemas de la Ingeniería en Energía Eléctrica."
+        ],
+        "contents": [
+          "Introducción al Cálculo Numérico.",
+          "Teoría de Errores.",
+          "Raíces de Ecuaciones.",
+          "Sistemas de Ecuaciones Lineales.",
+          "Diferenciación Numérica.",
+          "Integración Numérica.",
+          "Optimización."
+        ]
+      }
+    },
+    {
+      "id": "tecnologias-y-ensayos-de-materiales-electricos",
+      "number": 18,
+      "name": {
+        "es": "Tecnologías y Ensayos de Materiales Eléctricos"
+      },
+      "level": 3,
+      "term": null,
+      "hoursPerWeek": 3,
+      "block": "basic-technologies",
+      "isIntegrative": false,
+      "isElective": false,
+      "prerequisites": {
+        "taken": ["quimica-general", "fisica-2"],
+        "passed": ["analisis-matematico-1", "fisica-1"]
+      },
+      "profile": {
+        "summary": {
+          "es": ""
+        },
+        "competencies": [
+          {
+            "id": "ce-1.2"
+          },
+          {
+            "id": "ce-1.3"
+          },
+          {
+            "id": "ce-3.1"
+          },
+          {
+            "id": "ce-3.2"
+          },
+          {
+            "id": "ce-5.1"
+          },
+          {
+            "id": "ce-5.2"
+          },
+          {
+            "id": "ce-5.3"
+          }
+        ],
+        "reservedActivities": ["ar-01", "ar-03", "al-01"],
+        "status": "draft"
+      },
+      "sources": [
+        "docs/sources/Correlativas_Plan_2023_Energía_Eléctrica.pdf (Ord. C.S. 1874, Anexo I)",
+        "docs/sources/1873.pdf — Ord. C.S. 1873: plan de estudio (§7) and programa sintético nº 18 (§8)"
+      ],
+      "totalHours": 72,
+      "syllabus": {
+        "objectives": [
+          "Identificar y enumerar las características y tecnologías de aplicación de los materiales empleados en máquinas, equipos y sistemas eléctricos.",
+          "Desarrollar criterios de selección de los materiales eléctricos en función de su aplicación.",
+          "Incorporar al lenguaje terminología asociada al vocabulario técnico.",
+          "Identificar los diferentes tipos de ensayos de los materiales eléctricos."
+        ],
+        "contents": [
+          "Materiales aislantes sólidos. normas y ensayos. Materiales aislantes Líquidos. Aceites aislantes.",
+          "Materiales aislantes Gaseosos.",
+          "Materiales conductores. Conductores eléctricos, normas y ensayos Resistencias.",
+          "Materiales magnéticos y paramagnéticos.",
+          "Materiales dieléctricos para capacitores.",
+          "Materiales para termocuplas.",
+          "Materiales semiconductores.",
+          "Materiales y tecnologías utilizados en Acumuladores Eléctricos"
+        ]
+      }
+    },
+    {
+      "id": "instrumentos-y-mediciones-electricas",
+      "number": 19,
+      "name": {
+        "es": "Instrumentos y Mediciones Eléctricas"
+      },
+      "level": 3,
+      "term": null,
+      "hoursPerWeek": 6,
+      "block": "basic-technologies",
+      "isIntegrative": false,
+      "isElective": false,
+      "prerequisites": {
+        "taken": ["probabilidad-y-estadistica", "electrotecnia-1"],
+        "passed": [
+          "analisis-matematico-1",
+          "algebra-y-geometria-analitica",
+          "fisica-1"
+        ]
+      },
+      "profile": {
+        "summary": {
+          "es": ""
+        },
+        "competencies": [
+          {
+            "id": "ce-1.1"
+          },
+          {
+            "id": "ce-1.2"
+          },
+          {
+            "id": "ce-1.3"
+          },
+          {
+            "id": "ce-5.1"
+          },
+          {
+            "id": "ce-5.2"
+          },
+          {
+            "id": "ce-5.3"
+          },
+          {
+            "id": "ce-6.1"
+          },
+          {
+            "id": "ce-6.2"
+          }
+        ],
+        "reservedActivities": ["ar-01", "al-01", "al-02"],
+        "status": "draft"
+      },
+      "sources": [
+        "docs/sources/Correlativas_Plan_2023_Energía_Eléctrica.pdf (Ord. C.S. 1874, Anexo I)",
+        "docs/sources/1873.pdf — Ord. C.S. 1873: plan de estudio (§7) and programa sintético nº 19 (§8)"
+      ],
+      "totalHours": 144,
+      "syllabus": {
+        "objectives": [
+          "Reconocer y cuantificar los errores en la medición de valores correspondientes a magnitudes eléctricas.",
+          "Aplicar la teoría de propagación de errores cuando dichos valores se obtengan a través de combinar diferentes magnitudes medidas.",
+          "Describir y analizar los principios físicos y/o algoritmos fundamentales que emplean los instrumentos analógicos y digitales para su funcionamiento.",
+          "Seleccionar, combinar y utilizar de forma apropiada los equipos de medición para obtener los valores de diferentes magnitudes eléctricas tales como: resistencias, inductancias, capacidades, voltajes, corrientes, potencias, energías, magnitudes magnéticas asociadas con equipos y sistemas eléctricos, como así también reconocer metodologías que permitan identificar fallas en líneas aéreas y subterráneas.",
+          "Analizar los principios de funcionamiento y las principales características de los transformadores de medición y protección",
+          "Seleccionar los transformadores de medición y protección de acuerdo a la función de los equipos asociados a los mismos."
+        ],
+        "contents": [
+          "Medición y metrología.",
+          "Instrumentos analógicos.",
+          "Métodos de cero, deflexión y combinados.",
+          "Instrumentos digitales.",
+          "Medición de parámetros de calidad de potencia.",
+          "Medición de potencia y energía.",
+          "Medición en alta tensión, Transformadores de medida y protección.",
+          "Medición de resistencia de tomas de tierra y resistividad.",
+          "Mediciones magnéticas.",
+          "Localización de fallas en líneas aéreas y subterráneas.",
+          "Medición eléctrica de magnitudes no eléctricas."
+        ]
+      }
+    },
+    {
+      "id": "teoria-de-los-campos",
+      "number": 20,
+      "name": {
+        "es": "Teoría de los Campos"
+      },
+      "level": 3,
+      "term": null,
+      "hoursPerWeek": 3,
+      "block": "applied-technologies",
+      "isIntegrative": false,
+      "isElective": false,
+      "prerequisites": {
+        "taken": ["fisica-2", "analisis-matematico-2"],
+        "passed": [
+          "analisis-matematico-1",
+          "algebra-y-geometria-analitica",
+          "fisica-1"
+        ]
+      },
+      "profile": {
+        "summary": {
+          "es": "Los principios y métodos para analizar y calcular el campo electromagnético (electrostática, corrientes estacionarias, magnetostática, inducción y ecuaciones de Maxwell) y cómo se aplican a líneas de transmisión, máquinas eléctricas y puestas a tierra, con una introducción a la relatividad.",
+          "en": "The principles and methods for analysing and calculating the electromagnetic field (electrostatics, steady currents, magnetostatics, induction and Maxwell's equations) and how they apply to transmission lines, electrical machines and grounding, with an introduction to relativity."
+        },
+        "competencies": [
+          {
+            "id": "cg-01",
+            "level": "develops"
+          },
+          {
+            "id": "cg-04",
+            "level": "develops"
+          },
+          {
+            "id": "ce-1.1"
+          },
+          {
+            "id": "ce-1.2"
+          },
+          {
+            "id": "ce-1.3"
+          }
+        ],
+        "reservedActivities": ["ar-01"],
+        "status": "draft"
+      },
+      "sources": [
+        "docs/sources/Correlativas_Plan_2023_Energía_Eléctrica.pdf (Ord. C.S. 1874, Anexo I)",
+        "docs/sources/TdC - Programa de la asignatura.pdf (programa de la cátedra, código 950526, año 2017, Diseño Curricular 1995: objetivos y unidades temáticas)",
+        "docs/sources/1873.pdf — Ord. C.S. 1873: plan de estudio (§7) and programa sintético nº 20 (§8)"
+      ],
+      "totalHours": 72,
+      "syllabus": {
+        "objectives": [
+          "Analizar los campos eléctricos y magnéticos estudiados en física mediante la aplicación del análisis vectorial y sus operadores diferenciales para así vincular el comportamiento dinámico conjunto del campo eléctrico y magnético.",
+          "Aplicar a los campos en movimientos los principios relativistas para poder interpretar así la electrodinámica de los cuerpos móviles.",
+          "Resolver problemas referidos a tecnologías eléctricas con procedimientos avanzados para así comprender el funcionamiento de los componentes de un sistema eléctrico.",
+          "Modelizar mapas de campos utilizando la simulación mediante software específico para así poder visualizar la distribución de los mismos."
+        ],
+        "contents": [
+          "El principio de la relatividad.",
+          "Transformaciones de Lorentz.",
+          "El potencial eléctrico.",
+          "Campo eléctrico en los conductores.",
+          "Corriente eléctrica.",
+          "Campo de las cargas móviles.",
+          "El campo eléctrico en la materia.",
+          "El campo magnético.",
+          "Inducción electromagnética y ecuaciones de Maxwell.",
+          "Campo magnético en la materia."
+        ]
+      }
+    },
+    {
+      "id": "fisica-3",
+      "number": 21,
+      "name": {
+        "es": "Física III"
+      },
+      "level": 3,
+      "term": null,
+      "hoursPerWeek": 2,
+      "block": "basic-sciences",
+      "isIntegrative": false,
+      "isElective": false,
+      "prerequisites": {
+        "taken": ["fisica-2", "analisis-matematico-2"],
+        "passed": [
+          "analisis-matematico-1",
+          "algebra-y-geometria-analitica",
+          "fisica-1"
+        ]
+      },
+      "profile": {
+        "summary": {
+          "es": ""
+        },
+        "competencies": [
+          {
+            "id": "ce-1.1"
+          },
+          {
+            "id": "ce-1.2"
+          }
+        ],
+        "reservedActivities": ["ar-01"],
+        "status": "draft"
+      },
+      "sources": [
+        "docs/sources/Correlativas_Plan_2023_Energía_Eléctrica.pdf (Ord. C.S. 1874, Anexo I)",
+        "docs/sources/1873.pdf — Ord. C.S. 1873: plan de estudio (§7) and programa sintético nº 21 (§8)"
+      ],
+      "totalHours": 48,
+      "syllabus": {
+        "objectives": [
+          "Interpretar y describir los fenómenos fundamentales referidos a la física de las radiaciones, la física de materiales y la física del núcleo atómico, identificando las magnitudes y leyes fundamentales que los determinan.",
+          "Describir mediante aplicaciones tecnológicas algunos importantes avances de la Ingeniería producidos por el conocimiento de la Teoría Electromagnética, la Teoría de Relatividad Restringida y la Mecánica Cuántica.",
+          "Diseñar y crear documentos que le permitan comunicar, explicar o justificar afirmaciones y conclusiones referentes a situaciones o procesos físicos estudiados o experimentados, utilizando un lenguaje específico y/o técnico."
+        ],
+        "contents": [
+          "Conducción de gases.",
+          "Radiación térmica.",
+          "Modelos atómicos.",
+          "Propiedades de la materia.",
+          "Radiaciones y radioactividad.",
+          "Reacciones nucleares y reactores.",
+          "El láser."
+        ]
+      }
+    },
+    {
+      "id": "maquinas-electricas-1",
+      "number": 22,
+      "name": {
+        "es": "Máquinas Eléctricas I"
+      },
+      "level": 3,
+      "term": null,
+      "hoursPerWeek": 6,
+      "block": "basic-technologies",
+      "isIntegrative": false,
+      "isElective": false,
+      "prerequisites": {
+        "taken": [
+          "fisica-2",
+          "electrotecnia-1",
+          "analisis-matematico-2",
+          "calculo-numerico"
+        ],
+        "passed": ["analisis-matematico-1", "fisica-1"]
+      },
+      "profile": {
+        "summary": {
+          "es": ""
+        },
+        "competencies": [
+          {
+            "id": "ce-1.1"
+          },
+          {
+            "id": "ce-1.2"
+          },
+          {
+            "id": "ce-1.3"
+          }
+        ],
+        "reservedActivities": ["ar-01"],
+        "status": "draft"
+      },
+      "sources": [
+        "docs/sources/Correlativas_Plan_2023_Energía_Eléctrica.pdf (Ord. C.S. 1874, Anexo I)",
+        "docs/sources/1873.pdf — Ord. C.S. 1873: plan de estudio (§7) and programa sintético nº 22 (§8)"
+      ],
+      "totalHours": 144,
+      "syllabus": {
+        "objectives": [
+          "Analizar los transformadores y máquinas rotativas de C.C. en su constitución, funcionamiento y utilización mediante la aplicación Física Matemática y su modelización.",
+          "Ensayar los transformadores y máquinas rotativas de C.C., para obtener el circuito equivalente y emplear el mismo para determinar el comportamiento de las máquinas para distintas condiciones de carga y servicio.",
+          "Emplear con fluidez y precisión el vocabulario."
+        ],
+        "contents": [
+          "Transformador monofásico. Calentamiento, pérdidas y rendimiento.",
+          "Transformador trifásico. Grupos de conexión. Cargas desbalanceadas. Componentes de secuencia.",
+          "Autotransformador y transformadores especiales. Transitorios en transformadores",
+          "Principios de la conversión de energía electromagnética.",
+          "Máquina rotante de corriente continua en régimen permanente y transitorio"
+        ]
+      }
+    },
+    {
+      "id": "electrotecnia-2",
+      "number": 23,
+      "name": {
+        "es": "Electrotecnia II"
+      },
+      "level": 3,
+      "term": null,
+      "hoursPerWeek": 4,
+      "block": "basic-technologies",
+      "isIntegrative": false,
+      "isElective": false,
+      "prerequisites": {
+        "taken": ["fisica-2", "electrotecnia-1", "analisis-matematico-2"],
+        "passed": [
+          "analisis-matematico-1",
+          "algebra-y-geometria-analitica",
+          "fisica-1"
+        ]
+      },
+      "profile": {
+        "summary": {
+          "es": ""
+        },
+        "competencies": [
+          {
+            "id": "ce-1.1"
+          },
+          {
+            "id": "ce-1.2"
+          },
+          {
+            "id": "ce-5.1"
+          },
+          {
+            "id": "ce-5.2"
+          },
+          {
+            "id": "ce-5.3"
+          }
+        ],
+        "reservedActivities": ["ar-01", "al-01"],
+        "status": "draft"
+      },
+      "sources": [
+        "docs/sources/Correlativas_Plan_2023_Energía_Eléctrica.pdf (Ord. C.S. 1874, Anexo I)",
+        "docs/sources/1873.pdf — Ord. C.S. 1873: plan de estudio (§7) and programa sintético nº 23 (§8)"
+      ],
+      "totalHours": 96,
+      "syllabus": {
+        "objectives": [
+          "Resolver problemas de obtención de respuesta transitoria y permanente en modelos circuitales eléctricos lineales analizados mediante el método clásico, en el dominio del tiempo, ante excitaciones de tensión y/o corrientes de tipo periódicas y no periódicas.",
+          "Resolver problemas de obtención de respuesta de modelos circuitales lineales de uno y dos pares de terminales), en el dominio de la frecuencia compleja, utilizando el método operacional.",
+          "Demostrar habilidad en la utilización de las herramientas de análisis adecuadas para distintos modelos circuitales.",
+          "Analizar circuitos trifásicos equilibrados y desequilibrados. Aplicar el método de componentes simétricas a un circuito desequilibrado."
+        ],
+        "contents": [
+          "Componentes simétricas.",
+          "Cuadripolos.",
+          "Régimen transitorio en circuitos lineales con excitación de CC o CA sinusoidal.",
+          "Circuitos acoplados.",
+          "Método operacional.",
+          "Respuestas de circuitos con distintos tipos de excitaciones."
+        ]
+      }
+    },
+    {
+      "id": "termodinamica",
+      "number": 24,
+      "name": {
+        "es": "Termodinámica"
+      },
+      "level": 3,
+      "term": null,
+      "hoursPerWeek": 3,
+      "block": "basic-technologies",
+      "isIntegrative": false,
+      "isElective": false,
+      "prerequisites": {
+        "taken": ["fisica-2", "analisis-matematico-2"],
+        "passed": [
+          "analisis-matematico-1",
+          "algebra-y-geometria-analitica",
+          "fisica-1"
+        ]
+      },
+      "profile": {
+        "summary": {
+          "es": ""
+        },
+        "competencies": [
+          {
+            "id": "ce-1.1"
+          },
+          {
+            "id": "ce-1.2"
+          },
+          {
+            "id": "ce-1.3"
+          }
+        ],
+        "reservedActivities": ["ar-01"],
+        "status": "draft"
+      },
+      "sources": [
+        "docs/sources/Correlativas_Plan_2023_Energía_Eléctrica.pdf (Ord. C.S. 1874, Anexo I)",
+        "docs/sources/1873.pdf — Ord. C.S. 1873: plan de estudio (§7) and programa sintético nº 24 (§8)"
+      ],
+      "totalHours": 72,
+      "syllabus": {
+        "objectives": [
+          "Resolver problemas energéticos en base a criterios de eficiencia.",
+          "Identificar los fluidos intermediarios, las leyes que los rigen y los modelos que permiten describir su comportamiento.",
+          "Aplicar dichas leyes y modelos en forma directa a los procesos ideales y reales.",
+          "Emplear los principios termodinámicos para la interpretación del funcionamiento de las máquinas térmicas y frigoríficas.",
+          "Evaluar el uso eficiente de la energía.",
+          "Relacionar los distintos temas con los procesos industriales reales, tanto convencionales como renovables."
+        ],
+        "contents": [
+          "Primer principio de la termodinámica",
+          "Gases reales y vapores.",
+          "Segundo principio de la termodinámica",
+          "Ciclos térmicos y frigoríficos.",
+          "Aire húmedo.",
+          "Combustión",
+          "Transmisión del calor"
+        ]
+      }
+    },
+    {
+      "id": "fundamentos-para-el-analisis-de-senales",
+      "number": 25,
+      "name": {
+        "es": "Fundamentos para el Análisis de Señales"
+      },
+      "level": 3,
+      "term": null,
+      "hoursPerWeek": 3,
+      "block": "basic-technologies",
+      "isIntegrative": false,
+      "isElective": false,
+      "prerequisites": {
+        "taken": ["analisis-matematico-2", "calculo-numerico"],
+        "passed": ["analisis-matematico-1", "algebra-y-geometria-analitica"]
+      },
+      "profile": {
+        "summary": {
+          "es": ""
+        },
+        "competencies": [
+          {
+            "id": "ce-1.1"
+          },
+          {
+            "id": "ce-1.2"
+          },
+          {
+            "id": "ce-1.3"
+          },
+          {
+            "id": "ce-9.1"
+          }
+        ],
+        "reservedActivities": ["ar-01", "al-05"],
+        "status": "draft"
+      },
+      "sources": [
+        "docs/sources/Correlativas_Plan_2023_Energía_Eléctrica.pdf (Ord. C.S. 1874, Anexo I)",
+        "docs/sources/1873.pdf — Ord. C.S. 1873: plan de estudio (§7) and programa sintético nº 25 (§8)"
+      ],
+      "totalHours": 72,
+      "syllabus": {
+        "objectives": [
+          "Conocer los fundamentos matemáticos básicos de las funciones de una variable compleja.",
+          "Diferenciar el concepto de sistema y modelo desde el punto de vista de la ingeniería. Propiedades, alcances y limitaciones de los modelos lineales invariantes al desplazamiento.",
+          "Operar con números complejos en forma eficiente.",
+          "Emplear la transformada de Laplace, y sus propiedades, para la resolución de problemas típicos de la ingeniería.",
+          "Interpretar la función transferencia asociada a un sistema en el dominio de Laplace.",
+          "Desarrollar señales periódicas en serie de Fourier.",
+          "Interpretar el espectro discreto de señales. Concepto de armónicos.",
+          "Emplear de la transformada de Fourier para la caracterización de sistemas y señales.",
+          "Estudiar y comprender tecnologías que empleen procesamiento y análisis de señales.",
+          "Estudiar la estabilidad de los sistemas a partir de su función transferencia.",
+          "Interpretar el espectro discreto de señales. Concepto de armónicos y conservación de la energía."
+        ],
+        "contents": [
+          "Integral de Fourier. Análisis espectral de señales.",
+          "Variables compleja e integral en el campo complejo.",
+          "Series complejas",
+          "Trasformada de Laplace. Aplicación de circuitos y analogías"
+        ]
+      }
+    },
+    {
+      "id": "taller-interdisciplinario",
+      "number": 26,
+      "name": {
+        "es": "Taller Interdisciplinario"
+      },
+      "level": 3,
+      "term": null,
+      "hoursPerWeek": null,
+      "block": "complementary",
+      "isIntegrative": false,
+      "isElective": false,
+      "prerequisites": {
+        "taken": [
+          "fisica-2",
+          "electrotecnia-1",
+          "analisis-matematico-2",
+          "calculo-numerico"
+        ],
+        "passed": ["analisis-matematico-1", "fisica-1"]
+      },
+      "specialRule": {
+        "es": "Es condición para iniciar y acreditar el Taller Interdisciplinario el cumplimiento de los requisitos académicos exigidos para la inscripción a Máquinas Eléctricas I."
+      },
+      "profile": {
+        "summary": {
+          "es": ""
+        },
+        "competencies": [
+          {
+            "id": "ce-1.1"
+          },
+          {
+            "id": "ce-1.2"
+          },
+          {
+            "id": "ce-1.3"
+          }
+        ],
+        "reservedActivities": ["ar-01"],
+        "status": "draft"
+      },
+      "sources": [
+        "docs/sources/Correlativas_Plan_2023_Energía_Eléctrica.pdf (Ord. C.S. 1874, Anexo I) — requisites derived from note (*): same as Máquinas Eléctricas I",
+        "docs/sources/1873.pdf — Ord. C.S. 1873: plan de estudio (§7) and programa sintético nº 26 (§8)"
+      ],
+      "totalHours": 50,
+      "syllabus": {
+        "objectives": [
+          "Resolver problemas complejos de ingeniería aplicando pautas, conceptos y metodologías mediante trabajo en equipo."
+        ],
+        "contents": [
+          "Repaso sobre los tipos de informes.",
+          "Componentes de un proyecto.",
+          "Planteo del Tema del Proyecto.",
+          "Impacto, alcance, estado del arte, aporte del proyecto.",
+          "Marco tecnológico o teórico.",
+          "Propuestas de Capítulos para el proyecto.",
+          "Bibliografía, fuentes, citas, referencias. Notas",
+          "Se realizan actividades para orientar y facilitar a los y las estudiantes llevar a cabo los procedimientos académicos y reglamentarios de modo de poder estructurar un proyecto. Se facilitará consultar proyectos realizados con el fin de complementar el proceso de aprendizaje.",
+          "El taller cuenta con un banco de tutores y referentes que pueden ser seleccionados por los asistentes para ayudarlos a cumplir con su tarea.",
+          "El proyecto se realiza en grupo con el seguimiento de un Profesor o Tutor y será expuesto y defendido como tarea final para aprobar el taller."
+        ]
+      }
+    },
+    {
+      "id": "ingles-2",
+      "number": 27,
+      "name": {
+        "es": "Inglés II"
+      },
+      "level": 4,
+      "term": null,
+      "hoursPerWeek": 2,
+      "block": "complementary",
+      "isIntegrative": false,
+      "isElective": false,
+      "prerequisites": {
+        "taken": [],
+        "passed": ["ingles-1"]
+      },
+      "profile": {
+        "summary": {
+          "es": ""
+        },
+        "competencies": [],
+        "reservedActivities": [],
+        "status": "draft"
+      },
+      "sources": [
+        "docs/sources/Correlativas_Plan_2023_Energía_Eléctrica.pdf (Ord. C.S. 1874, Anexo I)",
+        "docs/sources/1873.pdf — Ord. C.S. 1873: plan de estudio (§7) and programa sintético nº 27 (§8)",
+        "docs/sources/1873.pdf — note: its program page says nivel 3, while the study plan table (section 7, whose level totals only add up with it in level 4) and Ord. 1874 place it in level 4; the study plan table was used"
+      ],
+      "totalHours": 48,
+      "syllabus": {
+        "objectives": [
+          "Integrar las dimensiones de la competencia comunicativa intercultural en inglés general y técnico para generar nuevos textos pertinentes en el dominio académico- científico.",
+          "Interactuar en equipos de trabajo generando saberes lingüístico-discursivos y estratégicos para favorecer la construcción colaborativa según la tarea o problema a resolver."
+        ],
+        "contents": [
+          "Dimensión lingüística: agencia y nominalización compleja; campos semánticos y lexicales; temporalidad, aspectualidad, modalidad y voz (frases verbales compuestos); complementación circunstancial compleja; coordinación y subordinación.",
+          "Dimensión sociolingüístico- discursiva: géneros discursivos (dominio académico- científico con carga lexical y estructura discursiva compleja); mecanismos elaborados de construcción de textos para su interpretación y producción; coherencia y cohesión; dispositivos de prominencia textual.",
+          "Dimensión estratégica: interpretación y uso de paráfrasis, sustitución, circunloquio, gesticulación, entre otras.",
+          "Dimensión socio-cultural: componentes del contexto comunicativo intercultural en el que la comunicación emerge. Reconocimiento de contexto socio-histórico en el dominio académico-científico: sistema de valores, patrones de socialización, organización institucional, posicionamiento político local-global, entre otros."
+        ]
+      }
+    },
+    {
+      "id": "economia",
+      "number": 28,
+      "name": {
+        "es": "Economía"
+      },
+      "level": 4,
+      "term": null,
+      "hoursPerWeek": 3,
+      "block": "complementary",
+      "isIntegrative": false,
+      "isElective": false,
+      "prerequisites": {
+        "taken": [],
+        "passed": ["ingenieria-y-sociedad"]
+      },
+      "profile": {
+        "summary": {
+          "es": ""
+        },
+        "competencies": [],
+        "reservedActivities": [],
+        "status": "draft"
+      },
+      "sources": [
+        "docs/sources/Correlativas_Plan_2023_Energía_Eléctrica.pdf (Ord. C.S. 1874, Anexo I)",
+        "docs/sources/1873.pdf — Ord. C.S. 1873: plan de estudio (§7) and programa sintético nº 28 (§8)"
+      ],
+      "totalHours": 72,
+      "syllabus": {
+        "objectives": [
+          "Identificar, formular y resolver problemas relacionados con aspectos económicos de productos.",
+          "Identificar, formular y resolver problemas relacionados con el diseño financiero y el análisis económico de proyectos de inversión.",
+          "Interpretar la realidad económica del contexto nacional e internacional."
+        ],
+        "contents": [
+          "Microeconomía. Función de producción Tipos de Mercados Los agentes económicos y sus decisiones",
+          "Macroeconomía Variables e indicadores Cuentas Nacionales Interpretación de la realidad económica",
+          "Análisis económico de proyectos de inversión."
+        ]
+      }
+    },
+    {
+      "id": "electronica-1",
+      "number": 29,
+      "name": {
+        "es": "Electrónica I"
+      },
+      "level": 4,
+      "term": null,
+      "hoursPerWeek": 4,
+      "block": "basic-technologies",
+      "isIntegrative": false,
+      "isElective": false,
+      "prerequisites": {
+        "taken": ["electrotecnia-1"],
+        "passed": ["analisis-matematico-1", "fisica-1"]
+      },
+      "profile": {
+        "summary": {
+          "es": ""
+        },
+        "competencies": [
+          {
+            "id": "ce-1.1"
+          },
+          {
+            "id": "ce-1.2"
+          },
+          {
+            "id": "ce-5.1"
+          },
+          {
+            "id": "ce-5.2"
+          },
+          {
+            "id": "ce-5.3"
+          }
+        ],
+        "reservedActivities": ["ar-01", "al-01"],
+        "status": "draft"
+      },
+      "sources": [
+        "docs/sources/Correlativas_Plan_2023_Energía_Eléctrica.pdf (Ord. C.S. 1874, Anexo I)",
+        "docs/sources/1873.pdf — Ord. C.S. 1873: plan de estudio (§7) and programa sintético nº 29 (§8)"
+      ],
+      "totalHours": 96,
+      "syllabus": {
+        "objectives": [
+          "Describir el funcionamiento y la aplicación de componentes electrónicos incluidos los elementos semiconductores.",
+          "Desarrollar criterios para la selección de los componentes de un circuito electrónico",
+          "Analizar circuitos analógicos con diferentes tipos de amplificadores. Calcular circuitos mono etapa.",
+          "Analizar y aplicar circuitos lógicos combinacionales y secuenciales.",
+          "Manejar el instrumental básico para mediciones electrónicas: (ej: Multímetro digital y osciloscopio con memoria).",
+          "Manejar programas de simulación"
+        ],
+        "contents": [
+          "Materiales Semiconductores, Teoría de la juntura.",
+          "Transistores bipolares, y de efecto de campo. Amplificadores monoetapa.",
+          "Amplificadores operacionales. Configuraciones básicas de amplificación y procesamiento de señal.",
+          "Circuitos lógicos. Álgebra de Boole. Diseño lógico, combinacional y secuencial. Familias lógicas.",
+          "Componentes electrónicos."
+        ]
+      }
+    },
+    {
+      "id": "maquinas-electricas-2",
+      "number": 30,
+      "name": {
+        "es": "Máquinas Eléctricas II"
+      },
+      "level": 4,
+      "term": null,
+      "hoursPerWeek": 6,
+      "block": "applied-technologies",
+      "isIntegrative": false,
+      "isElective": false,
+      "prerequisites": {
+        "taken": [
+          "tecnologias-y-ensayos-de-materiales-electricos",
+          "instrumentos-y-mediciones-electricas",
+          "teoria-de-los-campos",
+          "maquinas-electricas-1",
+          "electrotecnia-2"
+        ],
+        "passed": [
+          "quimica-general",
+          "fisica-2",
+          "probabilidad-y-estadistica",
+          "electrotecnia-1",
+          "ingles-1",
+          "analisis-matematico-2"
+        ]
+      },
+      "profile": {
+        "summary": {
+          "es": ""
+        },
+        "competencies": [
+          {
+            "id": "ce-1.1"
+          },
+          {
+            "id": "ce-1.2"
+          },
+          {
+            "id": "ce-1.3"
+          }
+        ],
+        "reservedActivities": ["ar-01"],
+        "status": "draft"
+      },
+      "sources": [
+        "docs/sources/Correlativas_Plan_2023_Energía_Eléctrica.pdf (Ord. C.S. 1874, Anexo I)",
+        "docs/sources/1873.pdf — Ord. C.S. 1873: plan de estudio (§7) and programa sintético nº 30 (§8)"
+      ],
+      "totalHours": 144,
+      "syllabus": {
+        "objectives": [
+          "Analizar e interpretar el comportamiento de las máquinas rotativas de corriente alterna.",
+          "Interpretar y aplicar los principios básicos de la transformación de la energía a través de las máquinas rotativas de C.A.",
+          "Definir los modelos físico-matemáticos de las máquinas eléctricas tanto para el estado permanente como para el transitorio.",
+          "Determinar los parámetros de funcionamiento de las máquinas de C.A. en función de condiciones prefijadas de operación.",
+          "Ensayar las máquinas rotativas de C.A., determinando sus curvas características y calcular los parámetros de sus circuitos equivalentes."
+        ],
+        "contents": [
+          "Formas constructivas de las máquinas eléctricas de corriente alterna. Fuerza Magnetomotriz, Flujo y Fuerza Electromotriz. Bobinados.",
+          "La máquina sincrónica como generador.",
+          "La máquina sincrónica como motor.",
+          "La máquina asincrónica trifásica.",
+          "La máquina asincrónica monofásica.",
+          "Introducción al estudio transitorio de las máquinas eléctricas rotantes de corriente alterna."
+        ]
+      }
+    },
+    {
+      "id": "seguridad-riesgo-electrico-y-medio-ambiente",
+      "number": 31,
+      "name": {
+        "es": "Seguridad, Riesgo Eléctrico y Medio Ambiente"
+      },
+      "level": 4,
+      "term": null,
+      "hoursPerWeek": 2,
+      "block": "complementary",
+      "isIntegrative": false,
+      "isElective": false,
+      "prerequisites": {
+        "taken": [
+          "quimica-general",
+          "electrotecnia-1",
+          "tecnologias-y-ensayos-de-materiales-electricos",
+          "teoria-de-los-campos"
+        ],
+        "passed": [
+          "analisis-matematico-1",
+          "algebra-y-geometria-analitica",
+          "fisica-1",
+          "fisica-2",
+          "analisis-matematico-2"
+        ]
+      },
+      "profile": {
+        "summary": {
+          "es": ""
+        },
+        "competencies": [
+          {
+            "id": "ce-1.1"
+          },
+          {
+            "id": "ce-1.2"
+          },
+          {
+            "id": "ce-1.3"
+          },
+          {
+            "id": "ce-4.1"
+          },
+          {
+            "id": "ce-4.2"
+          }
+        ],
+        "reservedActivities": ["ar-01", "ar-04"],
+        "status": "draft"
+      },
+      "sources": [
+        "docs/sources/Correlativas_Plan_2023_Energía_Eléctrica.pdf (Ord. C.S. 1874, Anexo I)",
+        "docs/sources/1873.pdf — Ord. C.S. 1873: plan de estudio (§7) and programa sintético nº 31 (§8)"
+      ],
+      "totalHours": 48,
+      "syllabus": {
+        "objectives": [
+          "Enumerar y describir los riesgos eléctricos que pueden comprometer la seguridad de personas y bienes.",
+          "Proponer las medidas necesarias para minimizarlos o suprimir dichos riesgos, respetando las normativas vigentes.",
+          "Reconocer como las líneas y equipos eléctricos pueden afectar el medio ambiente en base a los estudios y recomendaciones internacionales.",
+          "Expresarse con fluidez y precisión respecto del vocabulario técnico."
+        ],
+        "contents": [
+          "Definiciones y terminología eléctrica de la prevención",
+          "Aparatos de protección",
+          "Riesgos eléctricos en las instalaciones.",
+          "Prevenciones para media y baja tensión",
+          "Efectos fisiológicos de la electricidad sobre el cuerpo humano",
+          "Legislación",
+          "Influencia en el medio ambiente de las instalaciones eléctricas en general.",
+          "Movimiento y almacenaje de materiales críticos",
+          "Prevención y extinción de incendios y explosiones",
+          "Gestión ambiental."
+        ]
+      }
+    },
+    {
+      "id": "instalaciones-electricas-y-luminotecnia",
+      "number": 32,
+      "name": {
+        "es": "Instalaciones Eléctricas y Luminotecnia"
+      },
+      "level": 4,
+      "term": null,
+      "hoursPerWeek": 6,
+      "block": "applied-technologies",
+      "isIntegrative": false,
+      "isElective": false,
+      "prerequisites": {
+        "taken": [
+          "tecnologias-y-ensayos-de-materiales-electricos",
+          "maquinas-electricas-1",
+          "electrotecnia-2"
+        ],
+        "passed": [
+          "quimica-general",
+          "fisica-2",
+          "electrotecnia-1",
+          "integracion-electrica-2",
+          "ingles-1",
+          "analisis-matematico-2"
+        ]
+      },
+      "profile": {
+        "summary": {
+          "es": ""
+        },
+        "competencies": [
+          {
+            "id": "ce-1.1"
+          },
+          {
+            "id": "ce-1.2"
+          },
+          {
+            "id": "ce-1.3"
+          },
+          {
+            "id": "ce-2.1"
+          },
+          {
+            "id": "ce-3.1"
+          },
+          {
+            "id": "ce-3.2"
+          },
+          {
+            "id": "ce-4.2"
+          },
+          {
+            "id": "ce-7.1"
+          },
+          {
+            "id": "ce-8.1"
+          },
+          {
+            "id": "ce-10.1"
+          }
+        ],
+        "reservedActivities": [
+          "ar-01",
+          "ar-02",
+          "ar-03",
+          "ar-04",
+          "al-03",
+          "al-04",
+          "al-06"
+        ],
+        "status": "draft"
+      },
+      "sources": [
+        "docs/sources/Correlativas_Plan_2023_Energía_Eléctrica.pdf (Ord. C.S. 1874, Anexo I)",
+        "docs/sources/1873.pdf — Ord. C.S. 1873: plan de estudio (§7) and programa sintético nº 32 (§8)"
+      ],
+      "totalHours": 144,
+      "syllabus": {
+        "objectives": [
+          "Calcular, diseñar, proyectar y conducir la realización de instalaciones eléctricas en industrias y edificios, teniendo en consideración las reglamentaciones y normas vigentes.",
+          "Manejar con fluidez y precisión respecto del vocabulario técnico."
+        ],
+        "contents": [
+          "Consideraciones técnico económicos en las instalaciones.",
+          "Estudio de cortocircuitos en las instalaciones.",
+          "Cálculo y dimensionamiento de la puesta a tierra.",
+          "Canalizaciones eléctricas.",
+          "Factor de potencia.",
+          "Distintas tensiones de servicio.",
+          "Protecciones específicas de las instalaciones eléctricas.",
+          "Aparatos de maniobra, comando y tableros.",
+          "Sistemas de registro y medición.",
+          "Teoría, cálculo y diseño de sistemas de iluminación."
+        ]
+      }
+    },
+    {
+      "id": "control-automatico",
+      "number": 33,
+      "name": {
+        "es": "Control Automático"
+      },
+      "level": 4,
+      "term": null,
+      "hoursPerWeek": 5,
+      "block": "applied-technologies",
+      "isIntegrative": false,
+      "isElective": false,
+      "prerequisites": {
+        "taken": ["electrotecnia-2", "fundamentos-para-el-analisis-de-senales"],
+        "passed": ["electrotecnia-1", "analisis-matematico-2"]
+      },
+      "profile": {
+        "summary": {
+          "es": "Cómo se modelan y se controlan sistemas físicos con realimentación: función de transferencia, respuesta temporal, estabilidad, compensación y control PID, hasta una introducción al control moderno y al control industrial con PLC y SCADA.",
+          "en": "How physical systems are modelled and controlled with feedback: transfer functions, time response, stability, compensation and PID control, through to an introduction to modern control and industrial control with PLCs and SCADA."
+        },
+        "competencies": [
+          {
+            "id": "cg-01",
+            "level": "develops"
+          },
+          {
+            "id": "cg-02",
+            "level": "develops"
+          },
+          {
+            "id": "cg-04",
+            "level": "develops"
+          },
+          {
+            "id": "ce-1.1"
+          },
+          {
+            "id": "ce-1.2"
+          },
+          {
+            "id": "ce-1.3"
+          },
+          {
+            "id": "ce-5.1"
+          },
+          {
+            "id": "ce-5.2"
+          },
+          {
+            "id": "ce-5.3"
+          }
+        ],
+        "reservedActivities": ["ar-01", "al-01"],
+        "status": "draft"
+      },
+      "sources": [
+        "docs/sources/Correlativas_Plan_2023_Energía_Eléctrica.pdf (Ord. C.S. 1874, Anexo I)",
+        "docs/sources/Control Automatico Programa 2022  V1.pdf (programa de la cátedra, código 95-0536, año 2022: fundamentación, objetivos, contenidos, metodología y articulación)",
+        "docs/sources/1873.pdf — Ord. C.S. 1873: plan de estudio (§7) and programa sintético nº 33 (§8)"
+      ],
+      "totalHours": 120,
+      "syllabus": {
+        "objectives": [
+          "Analizar el funcionamiento de un sistema de control lineal con realimentación negativa",
+          "Calcular los márgenes de estabilidad por medio del método de Bode.",
+          "Determinar la compensación de los sistemas para aumentar su estabilidad.",
+          "Diseñar un controlador PID –proporcional, integral, derivativo.",
+          "Aplicar el método de las “variables de estado”.",
+          "Programar sistemas simples de control en un PLC (controlador lógico programable).",
+          "Emplear programas de simulación para el análisis de sistemas (Ej: - Simulink – Matlab)."
+        ],
+        "contents": [
+          "Función de transferencia. Grafos de señal. Diagramas en bloque.",
+          "Realimentación.",
+          "Régimen permanente. Entrada de referencia y perturbación o carga.",
+          "Estabilidad. Criterios y su aplicación. Respuesta frecuencia Representación de Bode.",
+          "Compensación en cascada y por realimentación.",
+          "Representación de sistemas físicos mediante variables de estado. Matriz de estado. Ecuación retransición. Función retrasferencia y autovalores.",
+          "Observabilidad y controlabilidad de sistemas.",
+          "Criterio de optimización de sistemas de control."
+        ]
+      }
+    },
+    {
+      "id": "maquinas-termicas-hidraulicas-y-de-fluido",
+      "number": 34,
+      "name": {
+        "es": "Máquinas Térmicas, Hidráulicas y de Fluido"
+      },
+      "level": 4,
+      "term": null,
+      "hoursPerWeek": 3,
+      "block": "applied-technologies",
+      "isIntegrative": false,
+      "isElective": false,
+      "prerequisites": {
+        "taken": ["estabilidad", "mecanica-tecnica", "termodinamica"],
+        "passed": ["fisica-2", "analisis-matematico-2"]
+      },
+      "profile": {
+        "summary": {
+          "es": ""
+        },
+        "competencies": [
+          {
+            "id": "ce-1.2"
+          },
+          {
+            "id": "ce-2.2"
+          }
+        ],
+        "reservedActivities": ["ar-01", "ar-02"],
+        "status": "draft"
+      },
+      "sources": [
+        "docs/sources/Correlativas_Plan_2023_Energía_Eléctrica.pdf (Ord. C.S. 1874, Anexo I)",
+        "docs/sources/1873.pdf — Ord. C.S. 1873: plan de estudio (§7) and programa sintético nº 34 (§8)"
+      ],
+      "totalHours": 72,
+      "syllabus": {
+        "objectives": [
+          "Comparar y distinguir los distintos tipos de plantas de generación de energía eléctrica.",
+          "Comparar y distinguir las máquinas motrices utilizadas para la generación de energía eléctrica.",
+          "Reconocer y clasificar los equipos auxiliares empleados en una planta de generación de energía eléctrica.",
+          "Interpretar las características de las máquinas y equipos que se emplean en una planta de generación de energía eléctrica.",
+          "Realizar trabajos en grupos para adquirir la capacidad de trabajar colaborativamente, demostrando habilidad para coordinar personas y tareas concretas, y contribuyendo con profesionalidad al buen funcionamiento y organización del grupo, sobre la base del respeto mutuo."
+        ],
+        "contents": [
+          "Generador de vapor",
+          "Turbinas de vapor",
+          "Turbinas de gas",
+          "Motores de combustión interna alternativos.",
+          "Turbinas hidráulicas",
+          "Bombas hidráulicas",
+          "Compresores y sopladores",
+          "Máquinas primarias no convencionales. Eólicas, solares, geotérmicas, oceánicas."
+        ]
+      }
+    },
+    {
+      "id": "legislacion",
+      "number": 35,
+      "name": {
+        "es": "Legislación"
+      },
+      "level": 4,
+      "term": null,
+      "hoursPerWeek": 2,
+      "block": "complementary",
+      "isIntegrative": false,
+      "isElective": false,
+      "prerequisites": {
+        "taken": [],
+        "passed": ["ingenieria-y-sociedad"]
+      },
+      "profile": {
+        "summary": {
+          "es": ""
+        },
+        "competencies": [],
+        "reservedActivities": [],
+        "status": "draft"
+      },
+      "sources": [
+        "docs/sources/Correlativas_Plan_2023_Energía_Eléctrica.pdf (Ord. C.S. 1874, Anexo I)",
+        "docs/sources/1873.pdf — Ord. C.S. 1873: plan de estudio (§7) and programa sintético nº 35 (§8)"
+      ],
+      "totalHours": 48,
+      "syllabus": {
+        "objectives": [
+          "Interpretar leyes, decretos y disposiciones del Sistema jurídico argentino para desempeñarse profesionalmente conforme a pautas éticas, y en particular para su aplicación en los dictámenes y peritajes.",
+          "Distinguir y valorar situaciones relativas al ejercicio profesional.",
+          "Valorar los aspectos éticos y de responsabilidad social de la actividad profesional desde la perspectiva del derecho, para desarrollar innovación en tecnología, en contexto de cambio.",
+          "Detectar situaciones de riesgo y potencialmente dañinas y proponer los recaudos pertinentes a la normativa aplicable para su prevención en materia de responsabilidad profesional y compromiso social",
+          "Identificar la relación entre el ejercicio de la ingeniería y el impacto con la ingeniería sustentable en función de las regulaciones normativas vigentes."
+        ],
+        "contents": [
+          "LEGISLACIÓN",
+          "Derecho. Derecho público y privado.",
+          "Constitución nacional.",
+          "Sistema normativo argentino",
+          "Sociedades",
+          "Contratos.",
+          "Derecho Laboral. EJERCICIO PROFESIONAL.",
+          "Ejercicio profesional",
+          "La ética en el ejercicio profesional.",
+          "Derechos y deberes legales del profesional.",
+          "Actividad pericial.",
+          "Responsabilidad profesional: civil, administrativa y penal.",
+          "Legislación sobre obras."
+        ]
+      }
+    },
+    {
+      "id": "electronica-2",
+      "number": 36,
+      "name": {
+        "es": "Electrónica II"
+      },
+      "level": 5,
+      "term": null,
+      "hoursPerWeek": 3,
+      "block": "applied-technologies",
+      "isIntegrative": false,
+      "isElective": false,
+      "prerequisites": {
+        "taken": ["electrotecnia-2", "electronica-1"],
+        "passed": ["electrotecnia-1", "taller-interdisciplinario"]
+      },
+      "profile": {
+        "summary": {
+          "es": ""
+        },
+        "competencies": [
+          {
+            "id": "ce-1.1"
+          },
+          {
+            "id": "ce-1.2"
+          },
+          {
+            "id": "ce-1.3"
+          },
+          {
+            "id": "ce-5.1"
+          },
+          {
+            "id": "ce-5.2"
+          },
+          {
+            "id": "ce-5.3"
+          }
+        ],
+        "reservedActivities": ["ar-01", "al-01"],
+        "status": "draft"
+      },
+      "sources": [
+        "docs/sources/Correlativas_Plan_2023_Energía_Eléctrica.pdf (Ord. C.S. 1874, Anexo I)",
+        "docs/sources/1873.pdf — Ord. C.S. 1873: plan de estudio (§7) and programa sintético nº 36 (§8)"
+      ],
+      "totalHours": 72,
+      "syllabus": {
+        "objectives": [
+          "Definir la Electrónica industrial.",
+          "Diferenciar los convertidores CA/CC, CC/CC, CC/CA, y CA/CA, y sus aplicaciones en el manejo actual de la energía.",
+          "Analizar el funcionamiento de los distintos tipos de convertidores y su aplicación en los equipos actuales.",
+          "Indicar los parámetros principales de diseño de los distintos tipos de convertidores.",
+          "Reconocer e interpretar la estructura básica de un sistema basado en microprocesadores y el ámbito de sus aplicaciones.",
+          "Resolver problemas de programación básica de microprocesadores.",
+          "Realizar el cálculo térmico de los componentes semiconductores."
+        ],
+        "contents": [
+          "La electrónica industrial, características y particularidades.",
+          "Rectificadores polifásicos no controlados.",
+          "Rectificadores controlados de dos cuadrantes. Funcionamiento con carga inductiva y FCEM. Estudio de armónicas de tensión y corriente.",
+          "Rectificadores controlados de 4 cuadrantes.",
+          "Inversores – PWM, PAM, CSI.",
+          "Proyecto térmico y protección de rectificadores e inversores",
+          "Computadoras CPU – Sistemas de memoria. Sistemas de entrada – salida.",
+          "Conversión analógica – digital – digital –analógica"
+        ]
+      }
+    },
+    {
+      "id": "generacion-transmision-y-distribucion-de-la-energia-electrica",
+      "number": 37,
+      "name": {
+        "es": "Generación, Transmisión y Distribución de la Energía Eléctrica"
+      },
+      "level": 5,
+      "term": null,
+      "hoursPerWeek": 6,
+      "block": "applied-technologies",
+      "isIntegrative": false,
+      "isElective": false,
+      "prerequisites": {
+        "taken": [
+          "fisica-3",
+          "maquinas-electricas-2",
+          "maquinas-termicas-hidraulicas-y-de-fluido"
+        ],
+        "passed": [
+          "estabilidad",
+          "mecanica-tecnica",
+          "tecnologias-y-ensayos-de-materiales-electricos",
+          "maquinas-electricas-1",
+          "electrotecnia-2",
+          "termodinamica"
+        ]
+      },
+      "profile": {
+        "summary": {
+          "es": ""
+        },
+        "competencies": [
+          {
+            "id": "ce-1.1"
+          },
+          {
+            "id": "ce-1.2"
+          },
+          {
+            "id": "ce-1.3"
+          },
+          {
+            "id": "ce-2.1"
+          },
+          {
+            "id": "ce-2.2"
+          },
+          {
+            "id": "ce-3.1"
+          },
+          {
+            "id": "ce-3.2"
+          },
+          {
+            "id": "ce-7.1"
+          },
+          {
+            "id": "ce-8.1"
+          },
+          {
+            "id": "ce-9.1"
+          },
+          {
+            "id": "ce-10.1"
+          }
+        ],
+        "reservedActivities": [
+          "ar-01",
+          "ar-02",
+          "ar-03",
+          "al-03",
+          "al-04",
+          "al-05",
+          "al-06"
+        ],
+        "status": "draft"
+      },
+      "sources": [
+        "docs/sources/Correlativas_Plan_2023_Energía_Eléctrica.pdf (Ord. C.S. 1874, Anexo I)",
+        "docs/sources/1873.pdf — Ord. C.S. 1873: plan de estudio (§7) and programa sintético nº 37 (§8)"
+      ],
+      "totalHours": 144,
+      "syllabus": {
+        "objectives": [
+          "Identificar fundamentos físicos matemáticos y metodológicos en los sistemas de GT D",
+          "Adquirir capacidad de resolución de problemas complejos de GTD con métodos simplificados.",
+          "Plantear y evaluar económicamente soluciones de Ingeniería.",
+          "Calificar y Cuantificar sistemas de generación, transmisión y distribución de la ener gía eléctrica.",
+          "Valorizar el conocimiento de búsqueda del saber y la solidez intelectual.",
+          "Emplear un marco de referencia ambiental, social y moral en el desarrollo de proyectos energéticos."
+        ],
+        "contents": [
+          "Demanda, tarifas, precios y costos marginales de generación, transmisión y distribución de la energía eléctrica.",
+          "Centrales hidroeléctricas, térmicas, nucleares y no convencionales.",
+          "Planificación de los sistemas de transmisión y distribución de energía eléctrica urbanas.",
+          "Calculo mecánico de líneas eléctricas de transmisión y distribución.",
+          "Estaciones transformadoras y centros de distribución, urbanos y rurales.",
+          "Protecciones de líneas, redes y estaciones transformadoras.",
+          "Puesta a Tierra.",
+          "Sistemas de Trasmisión en CC.",
+          "Calidad de Producto Eléctrico."
+        ]
+      }
+    },
+    {
+      "id": "sistemas-de-potencia",
+      "number": 38,
+      "name": {
+        "es": "Sistemas de Potencia"
+      },
+      "level": 5,
+      "term": null,
+      "hoursPerWeek": 4,
+      "block": "applied-technologies",
+      "isIntegrative": false,
+      "isElective": false,
+      "prerequisites": {
+        "taken": ["maquinas-electricas-2", "control-automatico"],
+        "passed": [
+          "tecnologias-y-ensayos-de-materiales-electricos",
+          "maquinas-electricas-1",
+          "electrotecnia-2",
+          "taller-interdisciplinario"
+        ]
+      },
+      "profile": {
+        "summary": {
+          "es": ""
+        },
+        "competencies": [
+          {
+            "id": "ce-1.1"
+          },
+          {
+            "id": "ce-1.2"
+          },
+          {
+            "id": "ce-1.3"
+          },
+          {
+            "id": "ce-2.1"
+          },
+          {
+            "id": "ce-6.2"
+          },
+          {
+            "id": "ce-7.1"
+          },
+          {
+            "id": "ce-8.1"
+          },
+          {
+            "id": "ce-9.1"
+          },
+          {
+            "id": "ce-10.1"
+          }
+        ],
+        "reservedActivities": [
+          "ar-01",
+          "ar-02",
+          "al-02",
+          "al-03",
+          "al-04",
+          "al-05",
+          "al-06"
+        ],
+        "status": "draft"
+      },
+      "sources": [
+        "docs/sources/Correlativas_Plan_2023_Energía_Eléctrica.pdf (Ord. C.S. 1874, Anexo I)",
+        "docs/sources/1873.pdf — Ord. C.S. 1873: plan de estudio (§7) and programa sintético nº 38 (§8)"
+      ],
+      "totalHours": 96,
+      "syllabus": {
+        "objectives": [
+          "Calcular parámetros eléctricos de redes de potencia",
+          "Adquirir capacidad de resolución de problemas complejos con métodos simplificados",
+          "Calificar y Cuantificar fenómenos de generación y transmisión de la energía",
+          "Adquirir precisión y fluidez en el uso de vocabulario técnico",
+          "Adquirir hábitos de abordaje de problemas nuevos"
+        ],
+        "contents": [
+          "Parámetros característicos de las líneas eléctricas.",
+          "Cálculo eléctrico de las líneas de transmisión en CA y CC.",
+          "Modelado de componentes de los sistemas de potencia.",
+          "Sistemas de CA en régimen balanceado y estacionarios.",
+          "Estudio de fallas en los sistemas de potencia",
+          "Flujo de potencia.",
+          "Estabilidad en los sistemas de potencia.",
+          "Despacho económico de cargas."
+        ]
+      }
+    },
+    {
+      "id": "accionamientos-y-controles-electricos",
+      "number": 39,
+      "name": {
+        "es": "Accionamientos y Controles Eléctricos"
+      },
+      "level": 5,
+      "term": null,
+      "hoursPerWeek": 4,
+      "block": "applied-technologies",
+      "isIntegrative": false,
+      "isElective": false,
+      "prerequisites": {
+        "taken": [
+          "electronica-1",
+          "maquinas-electricas-2",
+          "control-automatico"
+        ],
+        "passed": [
+          "electrotecnia-1",
+          "tecnologias-y-ensayos-de-materiales-electricos",
+          "maquinas-electricas-1",
+          "electrotecnia-2",
+          "fundamentos-para-el-analisis-de-senales",
+          "taller-interdisciplinario"
+        ]
+      },
+      "profile": {
+        "summary": {
+          "es": ""
+        },
+        "competencies": [
+          {
+            "id": "ce-1.1"
+          },
+          {
+            "id": "ce-1.2"
+          },
+          {
+            "id": "ce-1.3"
+          },
+          {
+            "id": "ce-2.1"
+          },
+          {
+            "id": "ce-2.2"
+          },
+          {
+            "id": "ce-3.1"
+          },
+          {
+            "id": "ce-3.2"
+          },
+          {
+            "id": "ce-6.1"
+          },
+          {
+            "id": "ce-6.2"
+          },
+          {
+            "id": "ce-9.1"
+          }
+        ],
+        "reservedActivities": ["ar-01", "ar-02", "ar-03", "al-02", "al-05"],
+        "status": "draft"
+      },
+      "sources": [
+        "docs/sources/Correlativas_Plan_2023_Energía_Eléctrica.pdf (Ord. C.S. 1874, Anexo I)",
+        "docs/sources/1873.pdf — Ord. C.S. 1873: plan de estudio (§7) and programa sintético nº 39 (§8)"
+      ],
+      "totalHours": 96,
+      "syllabus": {
+        "objectives": [
+          "Analizar e interpretar el comportamiento de los accionamientos eléctricos y sus sistemas de control asociados.",
+          "Seleccionar e integrar los componentes que conforman los accionamientos con criterio técnico y económico acorde a los grupos de producción a que deben ir aplicados.",
+          "Determinar los parámetros de los sistemas de control.",
+          "Evidenciar habilidad en el criterio de selección de los componentes de mando, control, motores reductores y elementos mecánicos según requerimientos de las cargas accionadas."
+        ],
+        "contents": [
+          "Accionamientos, automatización, mando y control. Definiciones.",
+          "Características de máquinas eléctricas, mecanismos y cargas accionadas. Cargas de impacto.",
+          "Selección de motores eléctricos según cargas accionadas y tipos de servicio.",
+          "Estudios de casos de sistemas electromecánicos. Evolución de pares, velocidades y corrientes.",
+          "Regulación de velocidad, par y potencia. Aplicaciones.",
+          "Variadores de velocidad. Puesta en servicio. Modo escalar y vectorial.",
+          "Estudio y simulación de los sistemas electromecánicos. Análisis de transitorios. Uso de Matlab – Simulink."
+        ]
+      }
+    },
+    {
+      "id": "organizacion-y-administracion-de-empresas",
+      "number": 40,
+      "name": {
+        "es": "Organización y Administración de Empresas"
+      },
+      "level": 5,
+      "term": null,
+      "hoursPerWeek": 2,
+      "block": "complementary",
+      "isIntegrative": false,
+      "isElective": false,
+      "prerequisites": {
+        "taken": ["economia", "legislacion"],
+        "passed": ["taller-interdisciplinario"]
+      },
+      "profile": {
+        "summary": {
+          "es": ""
+        },
+        "competencies": [
+          {
+            "id": "ce-2.1"
+          },
+          {
+            "id": "ce-2.2"
+          },
+          {
+            "id": "ce-3.2"
+          },
+          {
+            "id": "ce-4.2"
+          },
+          {
+            "id": "ce-6.1"
+          },
+          {
+            "id": "ce-6.2"
+          },
+          {
+            "id": "ce-7.1"
+          },
+          {
+            "id": "ce-10.1"
+          }
+        ],
+        "reservedActivities": [
+          "ar-02",
+          "ar-03",
+          "ar-04",
+          "al-02",
+          "al-03",
+          "al-06"
+        ],
+        "status": "draft"
+      },
+      "sources": [
+        "docs/sources/Correlativas_Plan_2023_Energía_Eléctrica.pdf (Ord. C.S. 1874, Anexo I)",
+        "docs/sources/1873.pdf — Ord. C.S. 1873: plan de estudio (§7) and programa sintético nº 40 (§8)"
+      ],
+      "totalHours": 48,
+      "syllabus": {
+        "objectives": [
+          "Interpretar estructuras organizativas, el medio en que se desarrollan, principios de autoridad.",
+          "Aplicar los principios de comunicación internos y externos de las organizaciones.",
+          "Manifestar la habilidad para participar en estructuras organizadas.",
+          "Interpretar los medios para evaluar y administrar organizaciones, mediante indicadores.",
+          "Manifestar la capacidad para integrarse a los niveles gerenciales de la organización.",
+          "Realizar trabajos en grupos para adquirir la capacidad de trabajar colaborativamente, demostrando habilidad para coordinar personas y tareas concretas, y contribuyendo con profesionalidad al buen funcionamiento y organización del grupo, sobre la base del respeto mutuo."
+        ],
+        "contents": [
+          "Introducción a la organización y a la administración.",
+          "Estructura dinámica de las organizaciones.",
+          "Evaluación de proyectos de inversión.",
+          "Información contable aplicada a la gestión.",
+          "Ingeniería de procesos.",
+          "Planificación y programación.",
+          "Abastecimiento y logística."
+        ]
+      }
+    },
+    {
+      "id": "proyecto-final",
+      "number": 41,
+      "name": {
+        "es": "Proyecto Final"
+      },
+      "level": 5,
+      "term": null,
+      "hoursPerWeek": 3,
+      "block": "applied-technologies",
+      "isIntegrative": true,
+      "isElective": false,
+      "prerequisites": {
+        "taken": [
+          "economia",
+          "maquinas-electricas-2",
+          "instalaciones-electricas-y-luminotecnia",
+          "control-automatico"
+        ],
+        "passed": [
+          "tecnologias-y-ensayos-de-materiales-electricos",
+          "instrumentos-y-mediciones-electricas",
+          "maquinas-electricas-1",
+          "electrotecnia-2",
+          "fundamentos-para-el-analisis-de-senales",
+          "taller-interdisciplinario",
+          "ingles-2"
+        ]
+      },
+      "specialRule": {
+        "es": "Es condición para rendir Proyecto Final, aprobar todas las asignaturas previas del Plan de Estudios."
+      },
+      "profile": {
+        "summary": {
+          "es": ""
+        },
+        "competencies": [
+          {
+            "id": "ce-1.1"
+          },
+          {
+            "id": "ce-1.2"
+          },
+          {
+            "id": "ce-1.3"
+          },
+          {
+            "id": "ce-4.1"
+          },
+          {
+            "id": "ce-4.2"
+          },
+          {
+            "id": "ce-10.1"
+          }
+        ],
+        "reservedActivities": ["ar-01", "ar-04", "al-06"],
+        "status": "draft"
+      },
+      "sources": [
+        "docs/sources/Correlativas_Plan_2023_Energía_Eléctrica.pdf (Ord. C.S. 1874, Anexo I)",
+        "docs/sources/1873.pdf — Ord. C.S. 1873: plan de estudio (§7) and programa sintético nº 41 (§8)"
+      ],
+      "totalHours": 72,
+      "syllabus": {
+        "objectives": [
+          "Comprender, entender y aplicar métodos para la formulación y evaluación de proyectos en el campo de la Ingeniería en Energía Eléctrica.",
+          "Seleccionar alternativas en proyectos amplios y complejo.",
+          "Trabajar en grupos multidisciplinarios."
+        ],
+        "contents": [
+          "Proyecto de Ingeniería en Energía Eléctrica ● Metodología de trabajo. ● Bases de datos para el proyecto. ● Normalización nacional, extranjera e internacional. Anteproyecto ● Anteproyecto, dimensionado y diseño previo. Proyecto ● Proyecto. ● Documentación. Especificaciones. Aspectos económicos – sociales ● Factibilidad del proyecto. ● Costo y rentabilidad. ● Impacto Ambiental. Nota: el tema elegido deberá contemplar casos reales y de aplicación local. Se desarrollará un proyecto integral tanto desde el punto de vista técnico como económico – administrativo. Se deberá tener en cuenta en la selección, la definición de la tecnología más avanzada, sea tanto de origen nacional como extranjera. Se deberá redactar un informe final que defina los parámetros necesarios para la realización efectiva del proyecto. Estos aspectos son de carácter indicativo, no pretenden condicionar la reglamentación específica que establezca el Consejo Departamental o eventualmente la dirección de la cátedra."
+        ]
+      }
+    },
+    {
+      "id": "redes-electricas-inteligentes",
+      "number": 42,
+      "name": {
+        "es": "Redes Eléctricas Inteligentes"
+      },
+      "level": 5,
+      "term": null,
+      "hoursPerWeek": null,
+      "totalHours": null,
+      "block": null,
+      "isIntegrative": false,
+      "isElective": true,
+      "prerequisites": {
+        "taken": [],
+        "passed": []
+      },
+      "syllabus": {
+        "objectives": [
+          "Comprender qué factores impulsan hoy las redes inteligentes, hacia dónde se dirigen los desarrollos actuales, la normativa vigente a nivel nacional e internacional y cuál es la perspectiva en el mundo, en la región y en la Argentina.",
+          "Comprender el conjunto de tecnologías que abarcan las Redes Inteligentes a nivel de distribución, de transmisión y del consumidor final de la energía eléctrica.",
+          "Comprender los sistemas energéticos, de redes y comunicaciones y de información que constituyen los cimientos de las Redes Inteligentes.",
+          "Conocer, comprender, diseñar y calcular sistemas de generación distribuida y almacenamiento de energía.",
+          "Conocer, comprender, diseñar y calcular microrredes eléctricas.",
+          "Conocer y comprender los nuevos desafíos que plantean algunas tecnologías de redes inteligentes en el sistema de protecciones eléctricas.",
+          "Comprender las tecnologías a nivel de transmisión y en particular aquellas para monitorear grandes áreas."
+        ],
+        "contents": [
+          "Introducción a las Redes Eléctricas Inteligentes: definición, características, tecnologías, beneficios, desafíos y hoja de ruta; modelo conceptual; contexto mundial, regional y local.",
+          "Arquitectura, infraestructura y tecnologías: smart metering (AMI, AMR), SCADA y automatización en distribución, redes de información y comunicaciones, protocolos y estándares (Modbus, DNP3, IEC 61850), ciberseguridad y sistemas de gestión.",
+          "Generación distribuida: concepto, tecnologías, normativa de interconexión, diseño y dimensionamiento; electrónica de potencia (convertidores, FACTS); almacenamiento y vehículos eléctricos.",
+          "Interconexión a la red de generación distribuida en MT y BT: impacto en sobrecarga y pérdidas, perfiles de tensión, calidad de potencia y protecciones eléctricas.",
+          "Microrredes AC, DC e híbridas y monitoreo de áreas amplias: HVDC, FACTS y sincrofasores."
+        ]
+      },
+      "profile": {
+        "summary": {
+          "es": "Las tecnologías que modernizan la red eléctrica: medición inteligente, comunicaciones, generación distribuida y almacenamiento, microrredes y monitoreo de áreas amplias con sincrofasores.",
+          "en": "The technologies that modernise the electric grid: smart metering, communications, distributed generation and storage, microgrids and wide-area monitoring with synchrophasors."
+        },
+        "competencies": [
+          {
+            "id": "cg-01"
+          },
+          {
+            "id": "cg-02"
+          },
+          {
+            "id": "cg-04"
+          },
+          {
+            "id": "cg-05"
+          },
+          {
+            "id": "ce-1.1"
+          },
+          {
+            "id": "ce-1.3"
+          },
+          {
+            "id": "ce-2.2"
+          }
+        ],
+        "reservedActivities": ["ar-01"],
+        "status": "draft"
+      },
+      "sources": [
+        "docs/sources/smart-grids.pdf (programa de la cátedra «Redes Eléctricas Inteligentes»: fundamentación, objetivos y contenidos analíticos; contenidos mínimos, carga horaria y correlativas figuran «En desarrollo»)"
+      ]
+    }
+  ],
+  "supplementaryRequirements": [
+    {
+      "id": "pps",
+      "name": {
+        "es": "Práctica Profesional Supervisada"
+      },
+      "text": {
+        "es": "Es condición previa para iniciar y acreditar la Práctica Profesional Supervisada el cumplimiento de los requisitos académicos exigidos para la inscripción a Proyecto Final."
+      },
+      "source": "docs/sources/Correlativas_Plan_2023_Energía_Eléctrica.pdf (Ord. C.S. 1874, Anexo I)"
+    }
+  ]
+}

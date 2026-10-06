@@ -1,8 +1,19 @@
 @import "tailwindcss";
 
+/* Drawing-sheet palette: ink on paper, one amber "energized conductor" accent. */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --paper: #fbfbf8;
+  --ink: #1d2a3a;
+  --ink-soft: #5b6878;
+  --grid: #e4e6e0;
+  --energy: #d98e00;
+  --block-basic-sciences: #2f6f9f;
+  --block-basic-technologies: #3f7d5a;
+  --block-applied-technologies: #a4532f;
+  --block-complementary: #7a5a9a;
+  --block-unknown: #5b6878; /* white text on it must reach 4.5:1 */
+  --background: var(--paper);
+  --foreground: var(--ink);
 }
 
 @theme inline {
@@ -12,15 +23,55 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+}
+
+/* Conductors: solid = must be passed, dashed = must be taken. */
+.prereq-edge {
+  fill: none;
+  stroke: var(--ink);
+  stroke-width: 1.25;
+  transition: opacity 150ms;
+}
+.prereq-edge[data-type="taken"] {
+  stroke-dasharray: 6 4;
+}
+.prereq-edge[data-state="dim"] {
+  opacity: 0.1;
+}
+.prereq-edge[data-state="lit"] {
+  stroke-width: 2;
+}
+
+/* "Energize": current travelling from prerequisite to subject along lit conductors. */
+.prereq-energize {
+  fill: none;
+  stroke: var(--energy);
+  stroke-width: 3;
+  stroke-linecap: round;
+  stroke-dasharray: 8 40;
+  animation: energize 1.4s linear infinite;
+  pointer-events: none;
+}
+@keyframes energize {
+  to {
+    stroke-dashoffset: -48;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .prereq-energize {
+    animation: none;
+    stroke-dasharray: none;
+    opacity: 0.55;
+  }
+}
+
+/* React Flow disables pointer events on nodes that are neither draggable nor selectable;
+   ours contain buttons, so they must stay clickable. */
+.react-flow__node {
+  cursor: default;
+  pointer-events: all !important;
 }

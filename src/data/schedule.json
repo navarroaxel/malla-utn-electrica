@@ -1,0 +1,620 @@
+{
+  "reference": {
+    "year": 2022,
+    "term": "1C/annual",
+    "plan": "Plan 95A",
+    "confirmedFor": null,
+    "venue": "Campus",
+    "source": "docs/sources/Horario-Ing-Electrica-CL2022.pdf"
+  },
+  "entries": [
+    {
+      "subjectId": "ingenieria-y-sociedad",
+      "division": "Q1091",
+      "shifts": ["evening"],
+      "modality": "semester",
+      "slots": [
+        {
+          "day": "friday",
+          "modules": [1, 2, 3, 4]
+        }
+      ],
+      "sheetCode": "951604",
+      "sheetName": "INGENIERIA y SOCIEDAD"
+    },
+    {
+      "subjectId": "fundamentos-de-informatica",
+      "division": "Q1091",
+      "shifts": ["evening"],
+      "modality": "annual",
+      "slots": [
+        {
+          "day": "wednesday",
+          "modules": [1, 2]
+        }
+      ],
+      "sheetCode": "950599",
+      "sheetName": "FUNDAMENTOS DE INFORMATICA"
+    },
+    {
+      "subjectId": "integracion-electrica-1",
+      "division": "Q1091",
+      "shifts": ["evening"],
+      "modality": "annual",
+      "slots": [
+        {
+          "day": "wednesday",
+          "modules": [3, 4, 5]
+        }
+      ],
+      "sheetCode": "950520",
+      "sheetName": "INT. ELÉCTRICA 1"
+    },
+    {
+      "subjectId": "fundamentos-de-informatica",
+      "division": "Q1093",
+      "shifts": ["evening"],
+      "modality": "annual",
+      "slots": [
+        {
+          "day": "wednesday",
+          "modules": [3, 4]
+        }
+      ],
+      "sheetCode": "950599",
+      "sheetName": "FUNDAMENTOS DE INFORMATICA"
+    },
+    {
+      "subjectId": "integracion-electrica-1",
+      "division": "Q1093",
+      "shifts": ["evening"],
+      "modality": "annual",
+      "slots": [
+        {
+          "day": "wednesday",
+          "modules": [0, 1, 2]
+        }
+      ],
+      "sheetCode": "950520",
+      "sheetName": "INT. ELÉCTRICA 1"
+    },
+    {
+      "subjectId": "fundamentos-de-informatica",
+      "division": "Q1092",
+      "shifts": ["evening"],
+      "modality": "annual",
+      "slots": [
+        {
+          "day": "monday",
+          "modules": [1, 2]
+        }
+      ],
+      "sheetCode": "950599",
+      "sheetName": "FUNDAMENTOS DE INFORMATICA"
+    },
+    {
+      "subjectId": "integracion-electrica-1",
+      "division": "Q1092",
+      "shifts": ["evening"],
+      "modality": "annual",
+      "slots": [
+        {
+          "day": "monday",
+          "modules": [3, 4, 5]
+        }
+      ],
+      "sheetCode": "950520",
+      "sheetName": "INT. ELÉCTRICA 1"
+    },
+    {
+      "subjectId": "fundamentos-de-informatica",
+      "division": "Q1094",
+      "shifts": ["evening"],
+      "modality": "annual",
+      "slots": [
+        {
+          "day": "monday",
+          "modules": [3, 4]
+        }
+      ],
+      "sheetCode": "950599",
+      "sheetName": "FUNDAMENTOS DE INFORMATICA"
+    },
+    {
+      "subjectId": "integracion-electrica-1",
+      "division": "Q1094",
+      "shifts": ["evening"],
+      "modality": "annual",
+      "slots": [
+        {
+          "day": "monday",
+          "modules": [0, 1, 2]
+        }
+      ],
+      "sheetCode": "950520",
+      "sheetName": "INT. ELÉCTRICA 1"
+    },
+    {
+      "subjectId": "sistemas-de-representacion",
+      "division": "Q1091",
+      "shifts": ["morning"],
+      "modality": "annual",
+      "slots": [
+        {
+          "day": "saturday",
+          "modules": [3, 4, 5]
+        }
+      ],
+      "sheetCode": null,
+      "sheetName": "SISTEMAS DE REPRESENTACION"
+    },
+    {
+      "subjectId": "sistemas-de-representacion",
+      "division": "Q1092",
+      "shifts": ["morning"],
+      "modality": "annual",
+      "slots": [
+        {
+          "day": "saturday",
+          "modules": [0, 1, 2]
+        }
+      ],
+      "sheetCode": null,
+      "sheetName": "SISTEMAS DE REPRESENTACION"
+    },
+    {
+      "subjectId": "sistemas-de-representacion",
+      "division": "Q1093",
+      "shifts": ["evening"],
+      "modality": "annual",
+      "slots": [
+        {
+          "day": "thursday",
+          "modules": [1, 2, 3]
+        },
+        {
+          "day": "saturday",
+          "modules": [0, 1, 2, 3]
+        }
+      ],
+      "sheetCode": null,
+      "sheetName": "SISTEMAS DE REPRESENTACION"
+    },
+    {
+      "subjectId": "electrotecnia-1",
+      "division": "Q2051",
+      "shifts": ["evening"],
+      "modality": "annual",
+      "slots": [
+        {
+          "day": "thursday",
+          "modules": [0, 1, 2, 3, 4, 5]
+        }
+      ],
+      "sheetCode": "950521",
+      "sheetName": "ELECTROTECNIA I"
+    },
+    {
+      "subjectId": "electrotecnia-1",
+      "division": "Q2052",
+      "shifts": ["evening"],
+      "modality": "annual",
+      "slots": [
+        {
+          "day": "tuesday",
+          "modules": [0, 1, 2, 3, 4, 5]
+        }
+      ],
+      "sheetCode": "950521",
+      "sheetName": "ELECTROTECNIA I"
+    },
+    {
+      "subjectId": "estabilidad",
+      "division": "Q2051",
+      "shifts": ["evening"],
+      "modality": "annual",
+      "slots": [
+        {
+          "day": "tuesday",
+          "modules": [0, 1, 2, 3]
+        }
+      ],
+      "sheetCode": "950524",
+      "sheetName": "ESTABILIDAD"
+    },
+    {
+      "subjectId": "mecanica-tecnica",
+      "division": "Q2051",
+      "shifts": ["evening"],
+      "modality": "annual",
+      "slots": [
+        {
+          "day": "tuesday",
+          "modules": [4, 5]
+        }
+      ],
+      "sheetCode": "950527",
+      "sheetName": "MECANICA TECNICA"
+    },
+    {
+      "subjectId": "estabilidad",
+      "division": "Q2052",
+      "shifts": ["evening"],
+      "modality": "annual",
+      "slots": [
+        {
+          "day": "tuesday",
+          "modules": [2, 3, 4, 5]
+        }
+      ],
+      "sheetCode": "950524",
+      "sheetName": "ESTABILIDAD"
+    },
+    {
+      "subjectId": "mecanica-tecnica",
+      "division": "Q2052",
+      "shifts": ["evening"],
+      "modality": "annual",
+      "slots": [
+        {
+          "day": "tuesday",
+          "modules": [0, 1]
+        }
+      ],
+      "sheetCode": "950527",
+      "sheetName": "MECANICA TECNICA"
+    },
+    {
+      "subjectId": "integracion-electrica-2",
+      "division": "Q2051",
+      "shifts": ["evening"],
+      "modality": "annual",
+      "slots": [
+        {
+          "day": "monday",
+          "modules": [0, 1, 2]
+        }
+      ],
+      "sheetCode": "950523",
+      "sheetName": "INT. ELECTRICA II"
+    },
+    {
+      "subjectId": "calculo-numerico",
+      "division": "Q2051",
+      "shifts": ["evening"],
+      "modality": "annual",
+      "slots": [
+        {
+          "day": "monday",
+          "modules": [3, 4]
+        }
+      ],
+      "sheetCode": "950598",
+      "sheetName": "CALCULO NUMERICO"
+    },
+    {
+      "subjectId": "integracion-electrica-2",
+      "division": "Q2052",
+      "shifts": ["evening"],
+      "modality": "annual",
+      "slots": [
+        {
+          "day": "monday",
+          "modules": [3, 4, 5]
+        }
+      ],
+      "sheetCode": "950523",
+      "sheetName": "INT. ELECTRICA II"
+    },
+    {
+      "subjectId": "calculo-numerico",
+      "division": "Q2052",
+      "shifts": ["evening"],
+      "modality": "annual",
+      "slots": [
+        {
+          "day": "monday",
+          "modules": [1, 2]
+        }
+      ],
+      "sheetCode": "950598",
+      "sheetName": "CALCULO NUMERICO"
+    },
+    {
+      "subjectId": "tecnologias-y-ensayos-de-materiales-electricos",
+      "division": "Q3051",
+      "shifts": ["evening"],
+      "modality": "annual",
+      "slots": [
+        {
+          "day": "thursday",
+          "modules": [1, 2, 3]
+        }
+      ],
+      "sheetCode": "950538",
+      "sheetName": "TEC. y ENSAYOS DE MAT."
+    },
+    {
+      "subjectId": "instrumentos-y-mediciones-electricas",
+      "division": "Q3051",
+      "shifts": ["evening"],
+      "modality": "annual",
+      "slots": [
+        {
+          "day": "wednesday",
+          "modules": [0, 1, 2, 3, 4, 5]
+        }
+      ],
+      "sheetCode": "950525",
+      "sheetName": "INSTRUMENTOS Y MEDICIONES"
+    },
+    {
+      "subjectId": "fisica-3",
+      "division": "Q3051",
+      "shifts": ["evening"],
+      "modality": "annual",
+      "slots": [
+        {
+          "day": "friday",
+          "modules": [4, 5]
+        }
+      ],
+      "sheetCode": "950531",
+      "sheetName": "FISICA III"
+    },
+    {
+      "subjectId": "maquinas-electricas-1",
+      "division": "Q3051",
+      "shifts": ["evening"],
+      "modality": "annual",
+      "slots": [
+        {
+          "day": "tuesday",
+          "modules": [1, 2, 3, 4]
+        },
+        {
+          "day": "thursday",
+          "modules": [4, 5]
+        }
+      ],
+      "sheetCode": "950528",
+      "sheetName": "MAQ. ELECTRICAS I"
+    },
+    {
+      "subjectId": "electrotecnia-2",
+      "division": "Q3051",
+      "shifts": ["evening"],
+      "modality": "annual",
+      "slots": [
+        {
+          "day": "friday",
+          "modules": [0, 1, 2, 3]
+        }
+      ],
+      "sheetCode": "950529",
+      "sheetName": "ELECTROTECNIA II"
+    },
+    {
+      "subjectId": "teoria-de-los-campos",
+      "division": "Q3051",
+      "shifts": ["evening"],
+      "modality": "annual",
+      "slots": [
+        {
+          "day": "monday",
+          "modules": [3, 4, 5]
+        }
+      ],
+      "sheetCode": "950526",
+      "sheetName": "TEORIA DE LOS CAMPOS"
+    },
+    {
+      "subjectId": "termodinamica",
+      "division": "Q3051",
+      "shifts": ["afternoon"],
+      "modality": "annual",
+      "slots": [
+        {
+          "day": "saturday",
+          "modules": [0, 1, 2]
+        }
+      ],
+      "sheetCode": "950530",
+      "sheetName": "TERMODINAMICA"
+    },
+    {
+      "subjectId": "fundamentos-para-el-analisis-de-senales",
+      "division": "Q3051",
+      "shifts": ["evening"],
+      "modality": "annual",
+      "slots": [
+        {
+          "day": "monday",
+          "modules": [0, 1, 2]
+        }
+      ],
+      "sheetCode": "950522",
+      "sheetName": "FUND. P/ EL ANALISIS DE SEÑALES"
+    },
+    {
+      "subjectId": "seguridad-riesgo-electrico-y-medio-ambiente",
+      "division": "Q4051",
+      "shifts": ["evening"],
+      "modality": "annual",
+      "slots": [
+        {
+          "day": "thursday",
+          "modules": [0, 1]
+        }
+      ],
+      "sheetCode": "950534",
+      "sheetName": "SEG.y RIESGO ELEC.y MEDIO AMB."
+    },
+    {
+      "subjectId": "maquinas-electricas-2",
+      "division": "Q4051",
+      "shifts": ["evening", "morning"],
+      "modality": "annual",
+      "slots": [
+        {
+          "day": "wednesday",
+          "modules": [3, 4]
+        },
+        {
+          "day": "saturday",
+          "modules": [1, 2, 3, 4]
+        }
+      ],
+      "sheetCode": "950533",
+      "sheetName": "MAQUINAS ELECTRICAS II"
+    },
+    {
+      "subjectId": "instalaciones-electricas-y-luminotecnia",
+      "division": "Q4051",
+      "shifts": ["evening"],
+      "modality": "annual",
+      "slots": [
+        {
+          "day": "tuesday",
+          "modules": [0, 1, 2, 3, 4, 5]
+        }
+      ],
+      "sheetCode": "950535",
+      "sheetName": "INST.ELECTRICAS Y LUMINOTECNIA"
+    },
+    {
+      "subjectId": "electronica-1",
+      "division": "Q4051",
+      "shifts": ["evening"],
+      "modality": "annual",
+      "slots": [
+        {
+          "day": "thursday",
+          "modules": [2, 3, 4, 5]
+        }
+      ],
+      "sheetCode": "950597",
+      "sheetName": "ELECTRONICA I"
+    },
+    {
+      "subjectId": "control-automatico",
+      "division": "Q4051",
+      "shifts": ["evening"],
+      "modality": "annual",
+      "slots": [
+        {
+          "day": "monday",
+          "modules": [1, 2, 3, 4, 5]
+        }
+      ],
+      "sheetCode": "950536",
+      "sheetName": "CONTROL AUTOMATICO"
+    },
+    {
+      "subjectId": "maquinas-termicas-hidraulicas-y-de-fluido",
+      "division": "Q4051",
+      "shifts": ["evening"],
+      "modality": "annual",
+      "slots": [
+        {
+          "day": "wednesday",
+          "modules": [0, 1, 2]
+        }
+      ],
+      "sheetCode": "950537",
+      "sheetName": "MAQ.TERMICAS e HIDRAULICAS Y FLUIDOS"
+    },
+    {
+      "subjectId": "proyecto-final",
+      "division": "Q5051",
+      "shifts": ["evening"],
+      "modality": "annual",
+      "slots": [
+        {
+          "day": "tuesday",
+          "modules": [3, 4, 5]
+        }
+      ],
+      "sheetCode": "950594",
+      "sheetName": "PROYECTO FINAL"
+    },
+    {
+      "subjectId": "generacion-transmision-y-distribucion-de-la-energia-electrica",
+      "division": "Q5051",
+      "shifts": ["evening"],
+      "modality": "annual",
+      "slots": [
+        {
+          "day": "friday",
+          "modules": [0, 1, 2, 3, 4, 5]
+        }
+      ],
+      "sheetCode": "950596",
+      "sheetName": "GEN.,TRANSM. y DISTRIB.de la ENERGIA ELECTR"
+    },
+    {
+      "subjectId": "accionamientos-y-controles-electricos",
+      "division": "Q5051",
+      "shifts": ["evening"],
+      "modality": "annual",
+      "slots": [
+        {
+          "day": "thursday",
+          "modules": [2, 3, 4, 5]
+        }
+      ],
+      "sheetCode": "950561",
+      "sheetName": "ACCIONAMIENTO y CONTROLES ELECTRICOS"
+    },
+    {
+      "subjectId": "sistemas-de-potencia",
+      "division": "Q5051",
+      "shifts": ["morning"],
+      "modality": "annual",
+      "slots": [
+        {
+          "day": "saturday",
+          "modules": [1, 2, 3, 4]
+        }
+      ],
+      "sheetCode": "950541",
+      "sheetName": "SISTEMAS de POTENCIA"
+    },
+    {
+      "subjectId": "organizacion-y-administracion-de-empresas",
+      "division": "Q5051",
+      "shifts": ["evening"],
+      "modality": "annual",
+      "slots": [
+        {
+          "day": "wednesday",
+          "modules": [4, 5]
+        },
+        {
+          "day": "thursday",
+          "modules": [0, 1]
+        }
+      ],
+      "sheetCode": "950595",
+      "sheetName": "ORGANIZACIÓN Y ADM. DE EMPRESAS"
+    },
+    {
+      "subjectId": "electronica-2",
+      "division": "Q5051",
+      "shifts": ["evening"],
+      "modality": "annual",
+      "slots": [
+        {
+          "day": "monday",
+          "modules": [2, 3, 4, 5]
+        },
+        {
+          "day": "tuesday",
+          "modules": [0, 1, 2]
+        }
+      ],
+      "sheetCode": "950539",
+      "sheetName": "ELECTRÓNICA II"
+    }
+  ]
+}

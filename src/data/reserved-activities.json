@@ -1,0 +1,82 @@
+[
+  {
+    "id": "ar-01",
+    "kind": "reserved",
+    "text": {
+      "es": "Diseñar, calcular y proyectar sistemas de generación, transmisión, conversión, distribución y utilización de energía eléctrica; sistemas de control y automatización y sistemas de protección eléctrica."
+    },
+    "source": "docs/sources/1873.pdf — Ord. C.S. 1873, §4 Alcances del título (AR1; actividad reservada, Res. Ministerial 1254/2018, Anexo V)"
+  },
+  {
+    "id": "ar-02",
+    "kind": "reserved",
+    "text": {
+      "es": "Proyectar, dirigir y controlar la construcción, operación y mantenimiento de lo anteriormente mencionado."
+    },
+    "source": "docs/sources/1873.pdf — Ord. C.S. 1873, §4 Alcances del título (AR2; actividad reservada, Res. Ministerial 1254/2018, Anexo V)"
+  },
+  {
+    "id": "ar-03",
+    "kind": "reserved",
+    "text": {
+      "es": "Certificar el funcionamiento, condición de uso o estado de lo mencionado anteriormente."
+    },
+    "source": "docs/sources/1873.pdf — Ord. C.S. 1873, §4 Alcances del título (AR3; actividad reservada, Res. Ministerial 1254/2018, Anexo V)"
+  },
+  {
+    "id": "ar-04",
+    "kind": "reserved",
+    "text": {
+      "es": "Proyectar y dirigir lo referido a la higiene y seguridad en su actividad profesional."
+    },
+    "source": "docs/sources/1873.pdf — Ord. C.S. 1873, §4 Alcances del título (AR4; actividad reservada, Res. Ministerial 1254/2018, Anexo V)"
+  },
+  {
+    "id": "al-01",
+    "kind": "other",
+    "text": {
+      "es": "Diseñar, calcular y proyectar laboratorios de todo tipo, relacionados con el ensayo, verificación y certificación de equipos de cualquier naturaleza vinculados a la generación, transmisión, conversión, distribución y utilización de la energía eléctrica."
+    },
+    "source": "docs/sources/1873.pdf — Ord. C.S. 1873, §4 Alcances del título (AL1; alcance no reservado)"
+  },
+  {
+    "id": "al-02",
+    "kind": "other",
+    "text": {
+      "es": "Dirigir y controlar la construcción, operación y mantenimiento de lo anteriormente mencionado."
+    },
+    "source": "docs/sources/1873.pdf — Ord. C.S. 1873, §4 Alcances del título (AL2; alcance no reservado)"
+  },
+  {
+    "id": "al-03",
+    "kind": "other",
+    "text": {
+      "es": "Asesorar y/o participar en la elaboración de políticas de tarifas, precios y costos marginales de generaciones, transporte y distribución de energía eléctrica."
+    },
+    "source": "docs/sources/1873.pdf — Ord. C.S. 1873, §4 Alcances del título (AL3; alcance no reservado)"
+  },
+  {
+    "id": "al-04",
+    "kind": "other",
+    "text": {
+      "es": "Realizar pericias, tasaciones y arbitrajes de cualquier naturaleza vinculados a la generación, transmisión, distribución y aplicación de la energía eléctrica."
+    },
+    "source": "docs/sources/1873.pdf — Ord. C.S. 1873, §4 Alcances del título (AL4; alcance no reservado)"
+  },
+  {
+    "id": "al-05",
+    "kind": "other",
+    "text": {
+      "es": "Participar en desarrollos de computación aplicada a la Ingeniería en Energía Eléctrica, incluyendo los productos de programación (software) y los dispositivos físicos (hardware)."
+    },
+    "source": "docs/sources/1873.pdf — Ord. C.S. 1873, §4 Alcances del título (AL5; alcance no reservado)"
+  },
+  {
+    "id": "al-06",
+    "kind": "other",
+    "text": {
+      "es": "Participar en la evaluación económica de proyectos de inversión de Ingeniería en Energía Eléctrica."
+    },
+    "source": "docs/sources/1873.pdf — Ord. C.S. 1873, §4 Alcances del título (AL6; alcance no reservado)"
+  }
+]
