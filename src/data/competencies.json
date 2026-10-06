@@ -1,0 +1,282 @@
+[
+  {
+    "id": "cg-01",
+    "kind": "generic",
+    "group": "technological",
+    "name": {
+      "es": "Identificar, formular y resolver problemas de ingeniería",
+      "en": "Identify, formulate and solve engineering problems"
+    },
+    "source": "docs/sources/1873.pdf — Ord. C.S. 1873, §5.1 (same wording as CONFEDI 2018, Libro Rojo). English is an unofficial translation"
+  },
+  {
+    "id": "cg-02",
+    "kind": "generic",
+    "group": "technological",
+    "name": {
+      "es": "Concebir, diseñar y desarrollar proyectos de ingeniería",
+      "en": "Conceive, design and develop engineering projects"
+    },
+    "source": "docs/sources/1873.pdf — Ord. C.S. 1873, §5.1 (same wording as CONFEDI 2018, Libro Rojo). English is an unofficial translation"
+  },
+  {
+    "id": "cg-03",
+    "kind": "generic",
+    "group": "technological",
+    "name": {
+      "es": "Gestionar, planificar, ejecutar y controlar proyectos de ingeniería",
+      "en": "Manage, plan, execute and control engineering projects"
+    },
+    "source": "docs/sources/1873.pdf — Ord. C.S. 1873, §5.1 (same wording as CONFEDI 2018, Libro Rojo). English is an unofficial translation"
+  },
+  {
+    "id": "cg-04",
+    "kind": "generic",
+    "group": "technological",
+    "name": {
+      "es": "Utilizar de manera efectiva las técnicas y herramientas de aplicación en la ingeniería",
+      "en": "Use effectively the techniques and tools applicable to engineering"
+    },
+    "source": "docs/sources/1873.pdf — Ord. C.S. 1873, §5.1 (same wording as CONFEDI 2018, Libro Rojo). English is an unofficial translation"
+  },
+  {
+    "id": "cg-05",
+    "kind": "generic",
+    "group": "technological",
+    "name": {
+      "es": "Contribuir a la generación de desarrollos tecnológicos y/o innovaciones tecnológicas",
+      "en": "Contribute to technological developments and/or technological innovations"
+    },
+    "source": "docs/sources/1873.pdf — Ord. C.S. 1873, §5.1 (same wording as CONFEDI 2018, Libro Rojo). English is an unofficial translation"
+  },
+  {
+    "id": "cg-06",
+    "kind": "generic",
+    "group": "social-political-attitudinal",
+    "name": {
+      "es": "Desempeñarse de manera efectiva en equipos de trabajo",
+      "en": "Perform effectively in teamwork"
+    },
+    "source": "docs/sources/1873.pdf — Ord. C.S. 1873, §5.1 (same wording as CONFEDI 2018, Libro Rojo). English is an unofficial translation"
+  },
+  {
+    "id": "cg-07",
+    "kind": "generic",
+    "group": "social-political-attitudinal",
+    "name": {
+      "es": "Comunicarse con efectividad",
+      "en": "Communicate effectively"
+    },
+    "source": "docs/sources/1873.pdf — Ord. C.S. 1873, §5.1 (same wording as CONFEDI 2018, Libro Rojo). English is an unofficial translation"
+  },
+  {
+    "id": "cg-08",
+    "kind": "generic",
+    "group": "social-political-attitudinal",
+    "name": {
+      "es": "Actuar con ética, responsabilidad profesional y compromiso social, considerando el impacto económico, social y ambiental de su actividad en el contexto local y global",
+      "en": "Act with ethics, professional responsibility and social commitment, considering the economic, social and environmental impact of their activity in the local and global context"
+    },
+    "source": "docs/sources/1873.pdf — Ord. C.S. 1873, §5.1 (same wording as CONFEDI 2018, Libro Rojo). English is an unofficial translation"
+  },
+  {
+    "id": "cg-09",
+    "kind": "generic",
+    "group": "social-political-attitudinal",
+    "name": {
+      "es": "Aprender en forma continua y autónoma",
+      "en": "Learn continuously and autonomously"
+    },
+    "source": "docs/sources/1873.pdf — Ord. C.S. 1873, §5.1 (same wording as CONFEDI 2018, Libro Rojo). English is an unofficial translation"
+  },
+  {
+    "id": "cg-10",
+    "kind": "generic",
+    "group": "social-political-attitudinal",
+    "name": {
+      "es": "Actuar con espíritu emprendedor",
+      "en": "Act with an entrepreneurial spirit"
+    },
+    "source": "docs/sources/1873.pdf — Ord. C.S. 1873, §5.1 (same wording as CONFEDI 2018, Libro Rojo). English is an unofficial translation"
+  },
+  {
+    "id": "ce-1.1",
+    "kind": "specific",
+    "group": "specific",
+    "name": {
+      "es": "Desarrollar y aplicar metodologías de proyecto, cálculo, diseño y planificación de sistemas, e instalaciones de generación, conversión, transmisión, distribución, supervisión, automatización, control, medición y utilización de energía eléctrica, respetando criterios técnico- económicos, de eficiencia energética y de sustentabilidad."
+    },
+    "reservedActivityId": "ar-01",
+    "source": "docs/sources/1873.pdf — Ord. C.S. 1873, §5.2 Competencias específicas (CE1.1); linked to its scope by numbering (the table of §5.2 omits CE1.3, which belongs to AR1 as in the Libro Rojo)"
+  },
+  {
+    "id": "ce-1.2",
+    "kind": "specific",
+    "group": "specific",
+    "name": {
+      "es": "Desarrollar, seleccionar y especificar, equipamientos, aparatos y componentes de los sistemas descriptos anteriormente, respetando criterios técnico-económicos, de eficiencia energética y de sustentabilidad."
+    },
+    "reservedActivityId": "ar-01",
+    "source": "docs/sources/1873.pdf — Ord. C.S. 1873, §5.2 Competencias específicas (CE1.2); linked to its scope by numbering (the table of §5.2 omits CE1.3, which belongs to AR1 as in the Libro Rojo)"
+  },
+  {
+    "id": "ce-1.3",
+    "kind": "specific",
+    "group": "specific",
+    "name": {
+      "es": "Interpretar y aplicar normas y estándares nacionales e internacionales de lo anteriormente mencionado, a fin de garantizar estándares de calidad y seguridad en la generación, transmisión, distribución y aplicación de la energía eléctrica."
+    },
+    "reservedActivityId": "ar-01",
+    "source": "docs/sources/1873.pdf — Ord. C.S. 1873, §5.2 Competencias específicas (CE1.3); linked to its scope by numbering (the table of §5.2 omits CE1.3, which belongs to AR1 as in the Libro Rojo)"
+  },
+  {
+    "id": "ce-2.1",
+    "kind": "specific",
+    "group": "specific",
+    "name": {
+      "es": "Proyectar, gestionar, dirigir, construir, operar, mantener y controlar sistemas e instalaciones vinculados con la generación, transmisión, distribución y utilización de energía eléctrica, formulando y aplicando marcos normativos y regulatorios de la actividad electroenergética y criterios de eficiencia energética."
+    },
+    "reservedActivityId": "ar-02",
+    "source": "docs/sources/1873.pdf — Ord. C.S. 1873, §5.2 Competencias específicas (CE2.1); linked to its scope by numbering (the table of §5.2 omits CE1.3, which belongs to AR1 as in the Libro Rojo)"
+  },
+  {
+    "id": "ce-2.2",
+    "kind": "specific",
+    "group": "specific",
+    "name": {
+      "es": "Investigar sobre el desarrollo y aplicación de tecnologías emergentes relacionadas con la energía eléctrica, con la finalidad de mejorar y/o actualizar los sistemas, equipamientos y procesos vinculados a la energía eléctrica."
+    },
+    "reservedActivityId": "ar-02",
+    "source": "docs/sources/1873.pdf — Ord. C.S. 1873, §5.2 Competencias específicas (CE2.2); linked to its scope by numbering (the table of §5.2 omits CE1.3, which belongs to AR1 as in the Libro Rojo)"
+  },
+  {
+    "id": "ce-3.1",
+    "kind": "specific",
+    "group": "specific",
+    "name": {
+      "es": "Verificar, diagnosticar y certificar el funcionamiento, condición de uso y estado de equipos, instalaciones y sistemas relacionados con la energía eléctrica, a los fines de garantizar su funcionalidad y seguridad, aplicando los criterios de las normas respectivas."
+    },
+    "reservedActivityId": "ar-03",
+    "source": "docs/sources/1873.pdf — Ord. C.S. 1873, §5.2 Competencias específicas (CE3.1); linked to its scope by numbering (the table of §5.2 omits CE1.3, which belongs to AR1 as in the Libro Rojo)"
+  },
+  {
+    "id": "ce-3.2",
+    "kind": "specific",
+    "group": "specific",
+    "name": {
+      "es": "Desarrollar y/o aplicar metodología de inspección, de ensayo, de medición, de diagnóstico y protocolización de lo anteriormente mencionado, aplicando los criterios de las normas respectivas."
+    },
+    "reservedActivityId": "ar-03",
+    "source": "docs/sources/1873.pdf — Ord. C.S. 1873, §5.2 Competencias específicas (CE3.2); linked to its scope by numbering (the table of §5.2 omits CE1.3, which belongs to AR1 as in the Libro Rojo)"
+  },
+  {
+    "id": "ce-4.1",
+    "kind": "specific",
+    "group": "specific",
+    "name": {
+      "es": "Proponer, interpretar y aplicar normas técnicas referidas a aspectos ambientales y de seguridad, a fin de lograr el mínimo impacto ambiental en el desarrollo de su actividad profesional, de acuerdo con las leyes y reglamentos referidas a dicho impacto."
+    },
+    "reservedActivityId": "ar-04",
+    "source": "docs/sources/1873.pdf — Ord. C.S. 1873, §5.2 Competencias específicas (CE4.1); linked to its scope by numbering (the table of §5.2 omits CE1.3, which belongs to AR1 as in the Libro Rojo)"
+  },
+  {
+    "id": "ce-4.2",
+    "kind": "specific",
+    "group": "specific",
+    "name": {
+      "es": "Identificar, cuantificar y controlar los aspectos ambientales y condiciones de riesgos mitigando sus efectos adversos en lo referido a su actividad profesional."
+    },
+    "reservedActivityId": "ar-04",
+    "source": "docs/sources/1873.pdf — Ord. C.S. 1873, §5.2 Competencias específicas (CE4.2); linked to its scope by numbering (the table of §5.2 omits CE1.3, which belongs to AR1 as in the Libro Rojo)"
+  },
+  {
+    "id": "ce-5.1",
+    "kind": "specific",
+    "group": "specific",
+    "name": {
+      "es": "Desarrollar y aplicar metodologías de proyecto, cálculo, diseño y planificación de laboratorios, relacionados con el ensayo, verificación y certificación de equipos de cualquier naturaleza vinculados a la generación, transmisión, conversión, distribución y utilización de la energía eléctrica, respetando los criterios y metodologías prescriptos por las Normas de ensayo, tanto nacionales como internacionales."
+    },
+    "reservedActivityId": "al-01",
+    "source": "docs/sources/1873.pdf — Ord. C.S. 1873, §5.2 Competencias específicas (CE5.1); linked to its scope by numbering (the table of §5.2 omits CE1.3, which belongs to AR1 as in the Libro Rojo)"
+  },
+  {
+    "id": "ce-5.2",
+    "kind": "specific",
+    "group": "specific",
+    "name": {
+      "es": "Desarrollar, seleccionar y especificar, equipamientos, aparatos y componentes de los sistemas descriptos anteriormente, respetando criterios técnico-económicos, de eficiencia energética y de sustentabilidad."
+    },
+    "reservedActivityId": "al-01",
+    "source": "docs/sources/1873.pdf — Ord. C.S. 1873, §5.2 Competencias específicas (CE5.2); linked to its scope by numbering (the table of §5.2 omits CE1.3, which belongs to AR1 as in the Libro Rojo)"
+  },
+  {
+    "id": "ce-5.3",
+    "kind": "specific",
+    "group": "specific",
+    "name": {
+      "es": "Interpretar y aplicar normas y estándares nacionales e internacionales, a fin de garantizar el cumplimiento de las mismas en la realización de ensayos de lo anteriormente mencionado."
+    },
+    "reservedActivityId": "al-01",
+    "source": "docs/sources/1873.pdf — Ord. C.S. 1873, §5.2 Competencias específicas (CE5.3); linked to its scope by numbering (the table of §5.2 omits CE1.3, which belongs to AR1 as in the Libro Rojo)"
+  },
+  {
+    "id": "ce-6.1",
+    "kind": "specific",
+    "group": "specific",
+    "name": {
+      "es": "Gestionar, dirigir, construir, operar, mantener y controlar laboratorios relacionados con el ensayo, verificación y certificación de equipos de cualquier naturaleza vinculados con la generación, transmisión, distribución y utilización de energía eléctrica, formulando y aplicando marcos normativos y regulatorios de la actividad electroenergética y criterios de eficiencia energética."
+    },
+    "reservedActivityId": "al-02",
+    "source": "docs/sources/1873.pdf — Ord. C.S. 1873, §5.2 Competencias específicas (CE6.1); linked to its scope by numbering (the table of §5.2 omits CE1.3, which belongs to AR1 as in the Libro Rojo)"
+  },
+  {
+    "id": "ce-6.2",
+    "kind": "specific",
+    "group": "specific",
+    "name": {
+      "es": "Investigar sobre el desarrollo y aplicación de tecnologías emergentes relacionadas con la anteriormente mencionado, con la finalidad de mejorar y/o actualizar los sistemas, equipamientos y procesos vinculados a la energía eléctrica."
+    },
+    "reservedActivityId": "al-02",
+    "source": "docs/sources/1873.pdf — Ord. C.S. 1873, §5.2 Competencias específicas (CE6.2); linked to its scope by numbering (the table of §5.2 omits CE1.3, which belongs to AR1 as in the Libro Rojo)"
+  },
+  {
+    "id": "ce-7.1",
+    "kind": "specific",
+    "group": "specific",
+    "name": {
+      "es": "Elaborar políticas de tarifas, precios y costos marginales de generación, transporte y distribución de energía eléctrica, aplicando marcos normativos y regulatorios de la actividad electroenergética con la finalidad de respetar criterios de eficiencia energética y equilibrio económico."
+    },
+    "reservedActivityId": "al-03",
+    "source": "docs/sources/1873.pdf — Ord. C.S. 1873, §5.2 Competencias específicas (CE7.1); linked to its scope by numbering (the table of §5.2 omits CE1.3, which belongs to AR1 as in the Libro Rojo)"
+  },
+  {
+    "id": "ce-8.1",
+    "kind": "specific",
+    "group": "specific",
+    "name": {
+      "es": "Realizar pericias, tasaciones y arbitrajes de cualquier naturaleza vinculados a la generación, transmisión, distribución y aplicación de la energía eléctrica, respetando marcos normativos y jurídicos con el objeto de asesorar a las partes."
+    },
+    "reservedActivityId": "al-04",
+    "source": "docs/sources/1873.pdf — Ord. C.S. 1873, §5.2 Competencias específicas (CE8.1); linked to its scope by numbering (the table of §5.2 omits CE1.3, which belongs to AR1 as in the Libro Rojo)"
+  },
+  {
+    "id": "ce-9.1",
+    "kind": "specific",
+    "group": "specific",
+    "name": {
+      "es": "Diseñar programas que permitan calcular y simular equipos, sistemas, e instalaciones de generación, conversión, transmisión, distribución, supervisión, automatización, control, medición y utilización de energía eléctrica, empleando algoritmos numéricos, equipos de computación, tecnología de la información y comunicación."
+    },
+    "reservedActivityId": "al-05",
+    "source": "docs/sources/1873.pdf — Ord. C.S. 1873, §5.2 Competencias específicas (CE9.1); linked to its scope by numbering (the table of §5.2 omits CE1.3, which belongs to AR1 as in the Libro Rojo)"
+  },
+  {
+    "id": "ce-10.1",
+    "kind": "specific",
+    "group": "specific",
+    "name": {
+      "es": "Evaluar situaciones relacionadas con aspectos económicos, financieros y de inversiones, para la determinación de proyectos, bienes y servicios, relacionados con el ejercicio de la ingeniería, analizando variables micro y macroeconómicas e interpretando la realidad económica en el contexto nacional e internacional."
+    },
+    "reservedActivityId": "al-06",
+    "source": "docs/sources/1873.pdf — Ord. C.S. 1873, §5.2 Competencias específicas (CE10.1); linked to its scope by numbering (the table of §5.2 omits CE1.3, which belongs to AR1 as in the Libro Rojo)"
+  }
+]

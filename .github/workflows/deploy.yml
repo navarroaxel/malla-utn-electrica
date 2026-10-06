@@ -1,0 +1,48 @@
+# Publishes the static site (out/) to GitHub Pages on every push to main.
+# One-time setup in the repository: Settings → Pages → Source: "GitHub Actions".
+name: Deploy
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    env:
+      # Project site: https://<owner>.github.io/<repo>/. For a user/organisation site (a repo named
+      # <owner>.github.io) or a custom domain, set NEXT_PUBLIC_BASE_PATH to "" and
+      # NEXT_PUBLIC_SITE_URL to that domain.
+      NEXT_PUBLIC_SITE_URL: https://${{ github.repository_owner }}.github.io
+      NEXT_PUBLIC_BASE_PATH: /${{ github.event.repository.name }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm lint
+      - run: pnpm typecheck
+      - run: pnpm test
+      - run: pnpm build
+      - run: touch out/.nojekyll
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: out
+      - id: deployment
+        uses: actions/deploy-pages@v4
